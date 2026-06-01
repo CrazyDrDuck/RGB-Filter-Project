@@ -1,0 +1,2536 @@
+261.6964 	INFO 	Loaded monitor calibration from ['2026_03_13 16:59']
+262.4195 	INFO 	Using renderer 'Intel(R) Graphics' for graphics
+262.4195 	INFO 	OpenGL version supported by driver is 4..
+262.4566 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000020DAE2478B0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000020DAE246D70>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000020DAE5F67A0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+262.4567 	EXP 	window1: backgroundImage = ''
+262.4567 	EXP 	window1: backgroundFit = 'none'
+262.8178 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+262.8179 	EXP 	window1: recordFrameIntervals = False
+263.0104 	EXP 	window1: recordFrameIntervals = True
+264.6763 	EXP 	window1: recordFrameIntervals = False
+264.6763 	EXP 	Screen (0) actual frame rate measured at 60.07Hz
+264.7558 	INFO 	keyboard.Keyboard is using ptb backend.
+264.7559 	EXP 	Train2Laptop: status = STARTED
+265.0475 	EXP 	Created Welcome_info = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(42.0), italic=False, languageStyle='LTR', name='Welcome_info', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='pix', win=Window(...), wrapWidth=1500.0)
+265.0559 	EXP 	Created PressEnterToContinue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(50.0), italic=False, languageStyle='LTR', name='PressEnterToContinue', opacity=1, ori=0.0, pos=array([   0., -400.]), rgb=UNKNOWN, text='Press "Enter" to continue.', units='pix', win=Window(...), wrapWidth=900.0)
+265.0739 	EXP 	Created img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='img', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='pix', win=Window(...))
+265.1890 	EXP 	Created Instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-13.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=36.0, italic=False, languageStyle='LTR', name='Instructions', opacity=1, ori=0.0, pos=array([  0., 500.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=1400.0)
+265.2000 	EXP 	Created RBGInfo = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-15.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(42.0), italic=False, languageStyle='LTR', name='RBGInfo', opacity=1.0, ori=0.0, pos=array([300., 300.]), rgb=UNKNOWN, text='RGB values: 0-100\n\nR:        G:        B:', units='pix', win=Window(...), wrapWidth=500)
+265.2009 	EXP 	Created R = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-16.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=42.0, italic=False, languageStyle='LTR', name='R', opacity=1.0, ori=0.0, pos=array([165., 220.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=500)
+265.2021 	EXP 	Created G = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-17.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=42.0, italic=False, languageStyle='LTR', name='G', opacity=1.0, ori=0.0, pos=array([300., 220.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=500)
+265.2031 	EXP 	Created B = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-18.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=42.0, italic=False, languageStyle='LTR', name='B', opacity=1.0, ori=0.0, pos=array([435., 220.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=500)
+265.2045 	EXP 	Created counter_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-19.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=72.0, italic=False, languageStyle='LTR', name='counter_Text', opacity=1.0, ori=0.0, pos=array([-520., -400.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=500)
+265.2108 	EXP 	Created total_count = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-20.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(72.0), italic=False, languageStyle='LTR', name='total_count', opacity=1.0, ori=0.0, pos=array([-475., -400.]), rgb=UNKNOWN, text='      / 28', units='pix', win=Window(...), wrapWidth=500)
+265.2124 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_8', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+265.6986 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Noto Sans', granularity=1.0, labelColor=None, labelHeight=np.float64(36.0), labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([-50.,   0.]), readOnly=False, self=UNKNOWN, size=array([1000.,  100.]), startValue=1, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='pix', win=Window(...))
+265.7117 	EXP 	Created text_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_9', opacity=1, ori=0.0, pos=array([0.  , 0.25]), rgb=UNKNOWN, text='How confident were you in your choice?', units='height', win=Window(...), wrapWidth=1)
+265.7215 	EXP 	Created text_answer = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_answer', opacity=1, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+265.8111 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_8', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+265.8222 	EXP 	Created correctAnswer = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=56.0, italic=False, languageStyle='LTR', name='correctAnswer', opacity=1, ori=0.0, pos=array([   0., -150.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=500)
+265.8230 	EXP 	Created wrongAnswer = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=56.0, italic=False, languageStyle='LTR', name='wrongAnswer', opacity=1.0, ori=0.0, pos=array([   0., -150.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=500)
+265.8238 	EXP 	Created corrColor_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=56.0, italic=False, languageStyle='LTR', name='corrColor_2', opacity=1.0, ori=0.0, pos=array([   0., -150.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=500)
+265.9188 	EXP 	Created RBGInfo_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-14.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(42.0), italic=False, languageStyle='LTR', name='RBGInfo_2', opacity=1.0, ori=0.0, pos=array([300., 300.]), rgb=UNKNOWN, text='RGB values: 0-100\n\nR:        G:        B:', units='pix', win=Window(...), wrapWidth=500)
+265.9197 	EXP 	Created R_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-15.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=42.0, italic=False, languageStyle='LTR', name='R_2', opacity=1.0, ori=0.0, pos=array([165., 220.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=500)
+265.9206 	EXP 	Created G_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-16.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=42.0, italic=False, languageStyle='LTR', name='G_2', opacity=1.0, ori=0.0, pos=array([300., 220.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=500)
+265.9212 	EXP 	Created B_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-17.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=42.0, italic=False, languageStyle='LTR', name='B_2', opacity=1.0, ori=0.0, pos=array([435., 220.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=500)
+265.9222 	EXP 	Created text_11 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_11', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+265.9228 	EXP 	Created GoodJob = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=50.0, italic=False, languageStyle='LTR', name='GoodJob', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=500)
+0.0170 	EXP 	slider: autoLog = True
+0.0170 	EXP 	slider: styleTweaks = []
+0.0170 	EXP 	slider: styleTweaks = []
+0.0170 	EXP 	slider: styleTweaks = []
+0.0170 	EXP 	slider: styleTweaks = []
+0.0170 	EXP 	slider: contrast = 1.0
+0.0170 	EXP 	slider: markerPos = 1
+0.0170 	EXP 	slider: autoLog = True
+0.0380 	EXP 	Welcome_info: autoDraw = True
+0.8044 	INFO 	Keyboard events cleared
+1.0042 	EXP 	PressEnterToContinue: autoDraw = True
+33.5280 	EXP 	Device response: <KeyPress from None: t=33.357790699927136, value=return, duration=None>
+33.5281 	EXP 	Device response: <KeyPress from None: t=33.357790699927136, value=return, duration=0.08016350003890693>
+33.5556 	EXP 	Imported ExcelOutputTrainStep2.xlsx as conditions, 28 conditions, 8 params
+33.5560 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'folder': '01-1', 'image': '010_Red.jpg', 'logical': True, 'corrColor': 'Red', 'corrR': 99, 'corrG': 0, 'corrB': 12, 'image_path': '01-1/010_Red_0.png', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+33.5567 	DATA 	Keypress: return
+33.7007 	EXP 	Welcome_info: autoDraw = False
+33.7007 	EXP 	PressEnterToContinue: autoDraw = False
+33.7007 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+33.7007 	EXP 	img: ori = np.float64(0.0)
+33.7007 	EXP 	Instructions: height = np.float64(36.0)
+33.7007 	EXP 	Instructions: height = np.float64(36.0)
+33.7007 	EXP 	Instructions: height = np.float64(36.0)
+33.7007 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+33.7007 	EXP 	counter_Text: height = np.float64(72.0)
+33.7007 	EXP 	counter_Text: height = np.float64(72.0)
+33.7007 	EXP 	counter_Text: height = np.float64(72.0)
+33.7007 	EXP 	counter_Text: text = 1
+33.7007 	EXP 	img: autoDraw = True
+33.7007 	EXP 	Instructions: autoDraw = True
+33.7007 	EXP 	RBGInfo: autoDraw = True
+33.7007 	EXP 	G: autoDraw = True
+33.7007 	EXP 	B: autoDraw = True
+33.7007 	EXP 	counter_Text: autoDraw = True
+33.7007 	EXP 	total_count: autoDraw = True
+33.7007 	EXP 	G: height = np.float64(42.0)
+33.7007 	EXP 	G: height = np.float64(42.0)
+33.7007 	EXP 	G: height = np.float64(42.0)
+33.7007 	EXP 	G: text = ''
+33.7007 	EXP 	B: height = np.float64(42.0)
+33.7007 	EXP 	B: height = np.float64(42.0)
+33.7007 	EXP 	B: height = np.float64(42.0)
+33.7007 	EXP 	B: text = ''
+33.8663 	EXP 	R: autoDraw = True
+36.1050 	DATA 	Mouse: Left button down, pos=(1284,1015)
+36.2627 	DATA 	Mouse:  Left button up, pos=(1284,1015)
+37.7952 	DATA 	Keypress: space
+37.7959 	EXP 	Device response: <KeyPress from None: t=37.79230129998177, value=space, duration=None>
+37.8814 	EXP 	Device response: <KeyPress from None: t=37.79230129998177, value=space, duration=0.07033279992174357>
+38.5641 	DATA 	Keypress: space
+38.6473 	EXP 	Device response: <KeyPress from None: t=38.56338329997379, value=space, duration=None>
+38.6474 	EXP 	Device response: <KeyPress from None: t=38.56338329997379, value=space, duration=0.07138079998549074>
+43.6297 	DATA 	Mouse: Left button down, pos=(1673,333)
+43.6496 	EXP 	img: autoDraw = False
+43.6496 	EXP 	Instructions: autoDraw = False
+43.6496 	EXP 	RBGInfo: autoDraw = False
+43.6496 	EXP 	R: autoDraw = False
+43.6496 	EXP 	G: autoDraw = False
+43.6496 	EXP 	B: autoDraw = False
+43.6496 	EXP 	counter_Text: autoDraw = False
+43.6496 	EXP 	total_count: autoDraw = False
+43.6496 	EXP 	text_8: autoDraw = True
+43.7045 	DATA 	Mouse:  Left button up, pos=(1673,333)
+44.0319 	EXP 	text_8: autoDraw = False
+44.0319 	EXP 	slider: markerPos = None
+44.0319 	EXP 	slider: markerPos = 1
+44.0319 	EXP 	slider: autoDraw = True
+44.0319 	EXP 	text_9: autoDraw = True
+44.0319 	EXP 	text_answer: autoDraw = True
+44.7931 	DATA 	Mouse: Left button down, pos=(1416,583)
+44.8317 	EXP 	slider: markerPos = np.float64(5.024)
+44.8517 	EXP 	slider: markerPos = np.float64(5.024)
+44.8817 	EXP 	slider: markerPos = np.float64(5.024)
+44.9015 	EXP 	slider: markerPos = np.float64(5.024)
+44.9039 	DATA 	Mouse:  Left button up, pos=(1416,583)
+44.9320 	EXP 	slider: markerPos = 5.0
+45.7022 	DATA 	Mouse: Left button down, pos=(989,265)
+45.7173 	EXP 	slider: autoDraw = False
+45.7173 	EXP 	text_9: autoDraw = False
+45.7173 	EXP 	text_answer: autoDraw = False
+45.7173 	EXP 	text_8: autoDraw = True
+45.8048 	DATA 	Mouse:  Left button up, pos=(989,265)
+46.0818 	INFO 	Keyboard events cleared
+46.0817 	EXP 	text_8: autoDraw = False
+46.0817 	EXP 	text_8: autoDraw = False
+46.0817 	EXP 	corrColor_2: height = np.float64(56.0)
+46.0817 	EXP 	corrColor_2: height = np.float64(56.0)
+46.0817 	EXP 	corrColor_2: height = np.float64(56.0)
+46.0817 	EXP 	corrColor_2: text = 'Red'
+46.0817 	EXP 	R_2: height = np.float64(42.0)
+46.0817 	EXP 	R_2: height = np.float64(42.0)
+46.0817 	EXP 	R_2: height = np.float64(42.0)
+46.0817 	EXP 	R_2: text = 99
+46.0817 	EXP 	G_2: height = np.float64(42.0)
+46.0817 	EXP 	G_2: height = np.float64(42.0)
+46.0817 	EXP 	G_2: height = np.float64(42.0)
+46.0817 	EXP 	G_2: text = 0
+46.0817 	EXP 	B_2: height = np.float64(42.0)
+46.0817 	EXP 	B_2: height = np.float64(42.0)
+46.0817 	EXP 	B_2: height = np.float64(42.0)
+46.0817 	EXP 	B_2: text = 12
+46.0817 	EXP 	correctAnswer: autoDraw = True
+46.0817 	EXP 	RBGInfo_2: autoDraw = True
+46.0817 	EXP 	R_2: autoDraw = True
+46.0817 	EXP 	G_2: autoDraw = True
+46.0817 	EXP 	B_2: autoDraw = True
+46.7032 	DATA 	Mouse: Left button down, pos=(989,265)
+46.7182 	EXP 	correctAnswer: autoDraw = False
+46.7182 	EXP 	wrongAnswer: autoDraw = False
+46.7182 	EXP 	corrColor_2: autoDraw = False
+46.7182 	EXP 	RBGInfo_2: autoDraw = False
+46.7182 	EXP 	R_2: autoDraw = False
+46.7182 	EXP 	G_2: autoDraw = False
+46.7182 	EXP 	B_2: autoDraw = False
+46.7182 	EXP 	text_11: autoDraw = True
+46.7726 	DATA 	Mouse:  Left button up, pos=(989,265)
+47.0686 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'folder': '02-1', 'image': '022_Seafoam.jpg', 'logical': True, 'corrColor': 'Seafoam', 'corrR': 0, 'corrG': 99, 'corrB': 72, 'image_path': '02-1/022_Seafoam_0.png', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+47.1674 	EXP 	text_11: autoDraw = False
+47.1674 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+47.1674 	EXP 	img: ori = np.float64(0.0)
+47.1674 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+47.1674 	EXP 	counter_Text: height = np.float64(72.0)
+47.1674 	EXP 	counter_Text: height = np.float64(72.0)
+47.1674 	EXP 	counter_Text: height = np.float64(72.0)
+47.1674 	EXP 	counter_Text: text = 2
+47.1674 	EXP 	img: autoDraw = True
+47.1674 	EXP 	Instructions: autoDraw = True
+47.1674 	EXP 	RBGInfo: autoDraw = True
+47.1674 	EXP 	G: autoDraw = True
+47.1674 	EXP 	B: autoDraw = True
+47.1674 	EXP 	counter_Text: autoDraw = True
+47.1674 	EXP 	total_count: autoDraw = True
+47.3338 	EXP 	R: autoDraw = True
+49.4080 	DATA 	Keypress: space
+49.4087 	EXP 	Device response: <KeyPress from None: t=49.387851499952376, value=space, duration=None>
+49.5028 	EXP 	Device response: <KeyPress from None: t=49.387851499952376, value=space, duration=0.10675310005899519>
+54.5584 	DATA 	Keypress: space
+54.5590 	EXP 	Device response: <KeyPress from None: t=54.55141959991306, value=space, duration=None>
+54.6523 	EXP 	Device response: <KeyPress from None: t=54.55141959991306, value=space, duration=0.08858380001038313>
+60.3127 	DATA 	Mouse: Left button down, pos=(1637,888)
+60.3324 	EXP 	img: autoDraw = False
+60.3324 	EXP 	Instructions: autoDraw = False
+60.3324 	EXP 	RBGInfo: autoDraw = False
+60.3324 	EXP 	R: autoDraw = False
+60.3324 	EXP 	G: autoDraw = False
+60.3324 	EXP 	B: autoDraw = False
+60.3324 	EXP 	counter_Text: autoDraw = False
+60.3324 	EXP 	total_count: autoDraw = False
+60.3324 	EXP 	text_8: autoDraw = True
+60.4198 	DATA 	Mouse:  Left button up, pos=(1637,888)
+60.7146 	EXP 	text_8: autoDraw = False
+60.7146 	EXP 	slider: markerPos = None
+60.7146 	EXP 	slider: markerPos = 1
+60.7146 	EXP 	slider: autoDraw = True
+60.7146 	EXP 	text_9: autoDraw = True
+60.7146 	EXP 	text_answer: autoDraw = True
+61.5514 	DATA 	Mouse: Left button down, pos=(1415,592)
+61.5814 	EXP 	slider: markerPos = np.float64(5.02)
+61.6010 	EXP 	slider: markerPos = np.float64(5.02)
+61.6170 	EXP 	slider: markerPos = np.float64(5.02)
+61.6341 	EXP 	slider: markerPos = np.float64(5.02)
+61.6505 	EXP 	slider: markerPos = np.float64(5.02)
+61.6529 	DATA 	Mouse:  Left button up, pos=(1415,592)
+61.6812 	EXP 	slider: markerPos = 5.0
+62.2496 	DATA 	Mouse: Left button down, pos=(1036,249)
+62.2675 	EXP 	slider: autoDraw = False
+62.2675 	EXP 	text_9: autoDraw = False
+62.2675 	EXP 	text_answer: autoDraw = False
+62.2675 	EXP 	text_8: autoDraw = True
+62.3538 	DATA 	Mouse:  Left button up, pos=(1035,250)
+62.6489 	INFO 	Keyboard events cleared
+62.6487 	EXP 	text_8: autoDraw = False
+62.6487 	EXP 	text_8: autoDraw = False
+62.6487 	EXP 	corrColor_2: height = np.float64(56.0)
+62.6487 	EXP 	corrColor_2: height = np.float64(56.0)
+62.6487 	EXP 	corrColor_2: height = np.float64(56.0)
+62.6487 	EXP 	corrColor_2: text = 'Seafoam'
+62.6487 	EXP 	R_2: height = np.float64(42.0)
+62.6487 	EXP 	R_2: height = np.float64(42.0)
+62.6487 	EXP 	R_2: height = np.float64(42.0)
+62.6487 	EXP 	R_2: text = 0
+62.6487 	EXP 	G_2: height = np.float64(42.0)
+62.6487 	EXP 	G_2: height = np.float64(42.0)
+62.6487 	EXP 	G_2: height = np.float64(42.0)
+62.6487 	EXP 	G_2: text = 99
+62.6487 	EXP 	B_2: height = np.float64(42.0)
+62.6487 	EXP 	B_2: height = np.float64(42.0)
+62.6487 	EXP 	B_2: height = np.float64(42.0)
+62.6487 	EXP 	B_2: text = 72
+62.6487 	EXP 	correctAnswer: autoDraw = True
+62.6487 	EXP 	RBGInfo_2: autoDraw = True
+62.6487 	EXP 	R_2: autoDraw = True
+62.6487 	EXP 	G_2: autoDraw = True
+62.6487 	EXP 	B_2: autoDraw = True
+63.2547 	DATA 	Mouse: Left button down, pos=(1003,230)
+63.2675 	EXP 	correctAnswer: autoDraw = False
+63.2675 	EXP 	wrongAnswer: autoDraw = False
+63.2675 	EXP 	corrColor_2: autoDraw = False
+63.2675 	EXP 	RBGInfo_2: autoDraw = False
+63.2675 	EXP 	R_2: autoDraw = False
+63.2675 	EXP 	G_2: autoDraw = False
+63.2675 	EXP 	B_2: autoDraw = False
+63.2675 	EXP 	text_11: autoDraw = True
+63.3692 	DATA 	Mouse:  Left button up, pos=(1003,231)
+63.6017 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'folder': '01-1', 'image': '009_Cyan.jpg', 'logical': True, 'corrColor': 'Cyan', 'corrR': 3, 'corrG': 100, 'corrB': 95, 'image_path': '01-1/009_Cyan_0.png', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+63.7175 	EXP 	text_11: autoDraw = False
+63.7175 	EXP 	text_11: autoDraw = False
+63.7175 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+63.7175 	EXP 	img: ori = np.float64(0.0)
+63.7175 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+63.7175 	EXP 	counter_Text: height = np.float64(72.0)
+63.7175 	EXP 	counter_Text: height = np.float64(72.0)
+63.7175 	EXP 	counter_Text: height = np.float64(72.0)
+63.7175 	EXP 	counter_Text: text = 3
+63.7175 	EXP 	img: autoDraw = True
+63.7175 	EXP 	Instructions: autoDraw = True
+63.7175 	EXP 	RBGInfo: autoDraw = True
+63.7175 	EXP 	G: autoDraw = True
+63.7175 	EXP 	B: autoDraw = True
+63.7175 	EXP 	counter_Text: autoDraw = True
+63.7175 	EXP 	total_count: autoDraw = True
+63.9662 	EXP 	R: autoDraw = True
+66.0773 	DATA 	Keypress: space
+66.0783 	EXP 	Device response: <KeyPress from None: t=66.03862929996103, value=space, duration=None>
+66.1869 	EXP 	Device response: <KeyPress from None: t=66.03862929996103, value=space, duration=0.07954940001945943>
+67.5886 	DATA 	Keypress: space
+67.5892 	EXP 	Device response: <KeyPress from None: t=67.55169079999905, value=space, duration=None>
+67.6821 	EXP 	Device response: <KeyPress from None: t=67.55169079999905, value=space, duration=0.08862629998475313>
+75.5390 	DATA 	Mouse: Left button down, pos=(1687,466)
+75.5487 	EXP 	img: autoDraw = False
+75.5487 	EXP 	Instructions: autoDraw = False
+75.5487 	EXP 	RBGInfo: autoDraw = False
+75.5487 	EXP 	R: autoDraw = False
+75.5487 	EXP 	G: autoDraw = False
+75.5487 	EXP 	B: autoDraw = False
+75.5487 	EXP 	counter_Text: autoDraw = False
+75.5487 	EXP 	total_count: autoDraw = False
+75.5487 	EXP 	text_8: autoDraw = True
+75.6376 	DATA 	Mouse:  Left button up, pos=(1687,466)
+75.9309 	EXP 	text_8: autoDraw = False
+75.9309 	EXP 	text_8: autoDraw = False
+75.9309 	EXP 	slider: markerPos = None
+75.9309 	EXP 	slider: markerPos = 1
+75.9309 	EXP 	slider: autoDraw = True
+75.9309 	EXP 	text_9: autoDraw = True
+75.9309 	EXP 	text_answer: autoDraw = True
+77.0256 	DATA 	Mouse: Left button down, pos=(1411,613)
+77.0640 	EXP 	slider: markerPos = np.float64(5.008)
+77.0839 	EXP 	slider: markerPos = np.float64(5.008)
+77.1139 	EXP 	slider: markerPos = np.float64(5.008)
+77.1337 	EXP 	slider: markerPos = np.float64(5.008)
+77.1454 	DATA 	Mouse:  Left button up, pos=(1412,612)
+77.1642 	EXP 	slider: markerPos = np.float64(5.008)
+77.1835 	EXP 	slider: markerPos = 5.0
+77.8004 	DATA 	Mouse: Left button down, pos=(1024,257)
+77.8168 	EXP 	slider: autoDraw = False
+77.8168 	EXP 	text_9: autoDraw = False
+77.8168 	EXP 	text_answer: autoDraw = False
+77.8168 	EXP 	text_8: autoDraw = True
+77.9203 	DATA 	Mouse:  Left button up, pos=(1024,257)
+78.1806 	INFO 	Keyboard events cleared
+78.1805 	EXP 	text_8: autoDraw = False
+78.1805 	EXP 	text_8: autoDraw = False
+78.1805 	EXP 	corrColor_2: height = np.float64(56.0)
+78.1805 	EXP 	corrColor_2: height = np.float64(56.0)
+78.1805 	EXP 	corrColor_2: height = np.float64(56.0)
+78.1805 	EXP 	corrColor_2: text = 'Cyan'
+78.1805 	EXP 	R_2: height = np.float64(42.0)
+78.1805 	EXP 	R_2: height = np.float64(42.0)
+78.1805 	EXP 	R_2: height = np.float64(42.0)
+78.1805 	EXP 	R_2: text = 3
+78.1805 	EXP 	G_2: height = np.float64(42.0)
+78.1805 	EXP 	G_2: height = np.float64(42.0)
+78.1805 	EXP 	G_2: height = np.float64(42.0)
+78.1805 	EXP 	G_2: text = 100
+78.1805 	EXP 	B_2: height = np.float64(42.0)
+78.1805 	EXP 	B_2: height = np.float64(42.0)
+78.1805 	EXP 	B_2: height = np.float64(42.0)
+78.1805 	EXP 	B_2: text = 95
+78.1805 	EXP 	correctAnswer: autoDraw = True
+78.1805 	EXP 	RBGInfo_2: autoDraw = True
+78.1805 	EXP 	R_2: autoDraw = True
+78.1805 	EXP 	G_2: autoDraw = True
+78.1805 	EXP 	B_2: autoDraw = True
+78.6845 	DATA 	Mouse: Left button down, pos=(1046,243)
+78.7001 	EXP 	correctAnswer: autoDraw = False
+78.7001 	EXP 	wrongAnswer: autoDraw = False
+78.7001 	EXP 	corrColor_2: autoDraw = False
+78.7001 	EXP 	RBGInfo_2: autoDraw = False
+78.7001 	EXP 	R_2: autoDraw = False
+78.7001 	EXP 	G_2: autoDraw = False
+78.7001 	EXP 	B_2: autoDraw = False
+78.7001 	EXP 	text_11: autoDraw = True
+78.7857 	DATA 	Mouse:  Left button up, pos=(1045,243)
+79.0337 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'folder': '01-1', 'image': '010_Yellow.jpg', 'logical': True, 'corrColor': 'Yellow', 'corrR': 100, 'corrG': 87, 'corrB': 0, 'image_path': '01-1/010_Yellow_0.png', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+79.1327 	EXP 	text_11: autoDraw = False
+79.1327 	EXP 	text_11: autoDraw = False
+79.1327 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+79.1327 	EXP 	img: ori = np.float64(0.0)
+79.1327 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+79.1327 	EXP 	counter_Text: height = np.float64(72.0)
+79.1327 	EXP 	counter_Text: height = np.float64(72.0)
+79.1327 	EXP 	counter_Text: height = np.float64(72.0)
+79.1327 	EXP 	counter_Text: text = 4
+79.1327 	EXP 	img: autoDraw = True
+79.1327 	EXP 	Instructions: autoDraw = True
+79.1327 	EXP 	RBGInfo: autoDraw = True
+79.1327 	EXP 	G: autoDraw = True
+79.1327 	EXP 	B: autoDraw = True
+79.1327 	EXP 	counter_Text: autoDraw = True
+79.1327 	EXP 	total_count: autoDraw = True
+79.3827 	EXP 	R: autoDraw = True
+84.1166 	DATA 	Keypress: space
+84.1170 	EXP 	Device response: <KeyPress from None: t=84.09004019992426, value=space, duration=None>
+84.2122 	EXP 	Device response: <KeyPress from None: t=84.09004019992426, value=space, duration=0.07258640008512884>
+93.1057 	DATA 	Mouse: Left button down, pos=(1678,699)
+93.1150 	EXP 	img: autoDraw = False
+93.1150 	EXP 	Instructions: autoDraw = False
+93.1150 	EXP 	RBGInfo: autoDraw = False
+93.1150 	EXP 	R: autoDraw = False
+93.1150 	EXP 	G: autoDraw = False
+93.1150 	EXP 	B: autoDraw = False
+93.1150 	EXP 	counter_Text: autoDraw = False
+93.1150 	EXP 	total_count: autoDraw = False
+93.1150 	EXP 	text_8: autoDraw = True
+93.2031 	DATA 	Mouse:  Left button up, pos=(1678,699)
+93.4804 	EXP 	text_8: autoDraw = False
+93.4804 	EXP 	text_8: autoDraw = False
+93.4804 	EXP 	slider: markerPos = None
+93.4804 	EXP 	slider: markerPos = 1
+93.4804 	EXP 	slider: autoDraw = True
+93.4804 	EXP 	text_9: autoDraw = True
+93.4804 	EXP 	text_answer: autoDraw = True
+94.1161 	DATA 	Mouse: Left button down, pos=(1402,592)
+94.1469 	EXP 	slider: markerPos = np.float64(4.968)
+94.1672 	EXP 	slider: markerPos = np.float64(4.968)
+94.1966 	EXP 	slider: markerPos = np.float64(4.968)
+94.2167 	EXP 	slider: markerPos = np.float64(4.968)
+94.2191 	DATA 	Mouse:  Left button up, pos=(1402,590)
+94.2467 	EXP 	slider: markerPos = 5.0
+94.9409 	DATA 	Mouse: Left button down, pos=(1062,277)
+94.9828 	EXP 	slider: autoDraw = False
+94.9828 	EXP 	text_9: autoDraw = False
+94.9828 	EXP 	text_answer: autoDraw = False
+94.9828 	EXP 	text_8: autoDraw = True
+95.0690 	DATA 	Mouse:  Left button up, pos=(1062,277)
+95.3805 	INFO 	Keyboard events cleared
+95.3803 	EXP 	text_8: autoDraw = False
+95.3803 	EXP 	corrColor_2: height = np.float64(56.0)
+95.3803 	EXP 	corrColor_2: height = np.float64(56.0)
+95.3803 	EXP 	corrColor_2: height = np.float64(56.0)
+95.3803 	EXP 	corrColor_2: text = 'Yellow'
+95.3803 	EXP 	R_2: height = np.float64(42.0)
+95.3803 	EXP 	R_2: height = np.float64(42.0)
+95.3803 	EXP 	R_2: height = np.float64(42.0)
+95.3803 	EXP 	R_2: text = 100
+95.3803 	EXP 	G_2: height = np.float64(42.0)
+95.3803 	EXP 	G_2: height = np.float64(42.0)
+95.3803 	EXP 	G_2: height = np.float64(42.0)
+95.3803 	EXP 	G_2: text = 87
+95.3803 	EXP 	B_2: height = np.float64(42.0)
+95.3803 	EXP 	B_2: height = np.float64(42.0)
+95.3803 	EXP 	B_2: height = np.float64(42.0)
+95.3803 	EXP 	B_2: text = 0
+95.3803 	EXP 	wrongAnswer: autoDraw = True
+95.3803 	EXP 	corrColor_2: autoDraw = True
+95.3803 	EXP 	RBGInfo_2: autoDraw = True
+95.3803 	EXP 	R_2: autoDraw = True
+95.3803 	EXP 	G_2: autoDraw = True
+95.3803 	EXP 	B_2: autoDraw = True
+102.1145 	DATA 	Mouse: Left button down, pos=(1687,579)
+102.1486 	EXP 	correctAnswer: autoDraw = True
+102.1486 	EXP 	wrongAnswer: autoDraw = False
+102.1486 	EXP 	corrColor_2: autoDraw = False
+102.2015 	DATA 	Mouse:  Left button up, pos=(1687,579)
+103.1505 	DATA 	Mouse: Left button down, pos=(1080,302)
+103.2684 	DATA 	Mouse:  Left button up, pos=(1080,302)
+104.0836 	DATA 	Mouse: Left button down, pos=(970,239)
+104.0990 	EXP 	correctAnswer: autoDraw = False
+104.0990 	EXP 	wrongAnswer: autoDraw = False
+104.0990 	EXP 	corrColor_2: autoDraw = False
+104.0990 	EXP 	RBGInfo_2: autoDraw = False
+104.0990 	EXP 	R_2: autoDraw = False
+104.0990 	EXP 	G_2: autoDraw = False
+104.0990 	EXP 	B_2: autoDraw = False
+104.0990 	EXP 	text_11: autoDraw = True
+104.2022 	DATA 	Mouse:  Left button up, pos=(970,239)
+104.4327 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'folder': '02-1', 'image': '010_Pink.jpg', 'logical': True, 'corrColor': 'Pink', 'corrR': 98, 'corrG': 0, 'corrB': 52, 'image_path': '02-1/010_Pink_0.png', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+104.5322 	EXP 	text_11: autoDraw = False
+104.5322 	EXP 	text_11: autoDraw = False
+104.5322 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+104.5322 	EXP 	img: ori = np.float64(0.0)
+104.5322 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+104.5322 	EXP 	counter_Text: height = np.float64(72.0)
+104.5322 	EXP 	counter_Text: height = np.float64(72.0)
+104.5322 	EXP 	counter_Text: height = np.float64(72.0)
+104.5322 	EXP 	counter_Text: text = 5
+104.5322 	EXP 	img: autoDraw = True
+104.5322 	EXP 	Instructions: autoDraw = True
+104.5322 	EXP 	RBGInfo: autoDraw = True
+104.5322 	EXP 	G: autoDraw = True
+104.5322 	EXP 	B: autoDraw = True
+104.5322 	EXP 	counter_Text: autoDraw = True
+104.5322 	EXP 	total_count: autoDraw = True
+104.7639 	EXP 	R: autoDraw = True
+106.0696 	DATA 	Keypress: space
+106.0702 	EXP 	Device response: <KeyPress from None: t=106.06183199991938, value=space, duration=None>
+106.1588 	EXP 	Device response: <KeyPress from None: t=106.06183199991938, value=space, duration=0.08875810005702078>
+106.8216 	DATA 	Keypress: space
+106.8221 	EXP 	Device response: <KeyPress from None: t=106.77719209995121, value=space, duration=None>
+106.9014 	EXP 	Device response: <KeyPress from None: t=106.77719209995121, value=space, duration=0.08920060005038977>
+114.3519 	DATA 	Mouse: Left button down, pos=(1680,825)
+114.3636 	EXP 	img: autoDraw = False
+114.3636 	EXP 	Instructions: autoDraw = False
+114.3636 	EXP 	RBGInfo: autoDraw = False
+114.3636 	EXP 	R: autoDraw = False
+114.3636 	EXP 	G: autoDraw = False
+114.3636 	EXP 	B: autoDraw = False
+114.3636 	EXP 	counter_Text: autoDraw = False
+114.3636 	EXP 	total_count: autoDraw = False
+114.3636 	EXP 	text_8: autoDraw = True
+114.4031 	DATA 	Mouse:  Left button up, pos=(1680,825)
+114.7292 	EXP 	text_8: autoDraw = False
+114.7292 	EXP 	text_8: autoDraw = False
+114.7292 	EXP 	slider: markerPos = None
+114.7292 	EXP 	slider: markerPos = 1
+114.7292 	EXP 	slider: autoDraw = True
+114.7292 	EXP 	text_9: autoDraw = True
+114.7292 	EXP 	text_answer: autoDraw = True
+115.6490 	DATA 	Mouse: Left button down, pos=(1402,612)
+115.6791 	EXP 	slider: markerPos = np.float64(4.968)
+115.6988 	EXP 	slider: markerPos = np.float64(4.968)
+115.7291 	EXP 	slider: markerPos = np.float64(4.968)
+115.7492 	EXP 	slider: markerPos = np.float64(4.968)
+115.7512 	DATA 	Mouse:  Left button up, pos=(1402,612)
+115.7795 	EXP 	slider: markerPos = 5.0
+116.7738 	DATA 	Mouse: Left button down, pos=(987,275)
+116.8152 	EXP 	slider: autoDraw = False
+116.8152 	EXP 	text_9: autoDraw = False
+116.8152 	EXP 	text_answer: autoDraw = False
+116.8152 	EXP 	text_8: autoDraw = True
+116.8848 	DATA 	Mouse:  Left button up, pos=(987,275)
+117.1791 	INFO 	Keyboard events cleared
+117.1790 	EXP 	text_8: autoDraw = False
+117.1790 	EXP 	corrColor_2: height = np.float64(56.0)
+117.1790 	EXP 	corrColor_2: height = np.float64(56.0)
+117.1790 	EXP 	corrColor_2: height = np.float64(56.0)
+117.1790 	EXP 	corrColor_2: text = 'Pink'
+117.1790 	EXP 	R_2: height = np.float64(42.0)
+117.1790 	EXP 	R_2: height = np.float64(42.0)
+117.1790 	EXP 	R_2: height = np.float64(42.0)
+117.1790 	EXP 	R_2: text = 98
+117.1790 	EXP 	G_2: height = np.float64(42.0)
+117.1790 	EXP 	G_2: height = np.float64(42.0)
+117.1790 	EXP 	G_2: height = np.float64(42.0)
+117.1790 	EXP 	G_2: text = 0
+117.1790 	EXP 	B_2: height = np.float64(42.0)
+117.1790 	EXP 	B_2: height = np.float64(42.0)
+117.1790 	EXP 	B_2: height = np.float64(42.0)
+117.1790 	EXP 	B_2: text = 52
+117.1790 	EXP 	correctAnswer: autoDraw = True
+117.1790 	EXP 	RBGInfo_2: autoDraw = True
+117.1790 	EXP 	R_2: autoDraw = True
+117.1790 	EXP 	G_2: autoDraw = True
+117.1790 	EXP 	B_2: autoDraw = True
+117.8005 	DATA 	Mouse: Left button down, pos=(1002,262)
+117.8146 	EXP 	correctAnswer: autoDraw = False
+117.8146 	EXP 	wrongAnswer: autoDraw = False
+117.8146 	EXP 	corrColor_2: autoDraw = False
+117.8146 	EXP 	RBGInfo_2: autoDraw = False
+117.8146 	EXP 	R_2: autoDraw = False
+117.8146 	EXP 	G_2: autoDraw = False
+117.8146 	EXP 	B_2: autoDraw = False
+117.8146 	EXP 	text_11: autoDraw = True
+117.9341 	DATA 	Mouse:  Left button up, pos=(1003,262)
+118.1491 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'folder': '02-1', 'image': '006_Orange.jpg', 'logical': True, 'corrColor': 'Orange', 'corrR': 100, 'corrG': 45, 'corrB': 0, 'image_path': '02-1/006_Orange_0.png', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+118.2472 	EXP 	text_11: autoDraw = False
+118.2472 	EXP 	text_11: autoDraw = False
+118.2472 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+118.2472 	EXP 	img: ori = np.float64(0.0)
+118.2472 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+118.2472 	EXP 	counter_Text: height = np.float64(72.0)
+118.2472 	EXP 	counter_Text: height = np.float64(72.0)
+118.2472 	EXP 	counter_Text: height = np.float64(72.0)
+118.2472 	EXP 	counter_Text: text = 6
+118.2472 	EXP 	img: autoDraw = True
+118.2472 	EXP 	Instructions: autoDraw = True
+118.2472 	EXP 	RBGInfo: autoDraw = True
+118.2472 	EXP 	G: autoDraw = True
+118.2472 	EXP 	B: autoDraw = True
+118.2472 	EXP 	counter_Text: autoDraw = True
+118.2472 	EXP 	total_count: autoDraw = True
+118.4966 	EXP 	R: autoDraw = True
+118.9937 	DATA 	Keypress: space
+119.0735 	EXP 	Device response: <KeyPress from None: t=118.99318240000866, value=space, duration=None>
+119.1659 	EXP 	Device response: <KeyPress from None: t=118.99318240000866, value=space, duration=0.10687129991129041>
+129.6043 	DATA 	Mouse: Left button down, pos=(1630,705)
+129.6295 	EXP 	img: autoDraw = False
+129.6295 	EXP 	Instructions: autoDraw = False
+129.6295 	EXP 	RBGInfo: autoDraw = False
+129.6295 	EXP 	R: autoDraw = False
+129.6295 	EXP 	G: autoDraw = False
+129.6295 	EXP 	B: autoDraw = False
+129.6295 	EXP 	counter_Text: autoDraw = False
+129.6295 	EXP 	total_count: autoDraw = False
+129.6295 	EXP 	text_8: autoDraw = True
+129.7005 	DATA 	Mouse:  Left button up, pos=(1630,705)
+129.9957 	EXP 	text_8: autoDraw = False
+129.9957 	EXP 	slider: markerPos = None
+129.9957 	EXP 	slider: markerPos = 1
+129.9957 	EXP 	slider: autoDraw = True
+129.9957 	EXP 	text_9: autoDraw = True
+129.9957 	EXP 	text_answer: autoDraw = True
+130.7911 	DATA 	Mouse: Left button down, pos=(1429,608)
+130.8315 	EXP 	slider: markerPos = np.float64(5.0760000000000005)
+130.8477 	EXP 	slider: markerPos = np.float64(5.0760000000000005)
+130.8648 	EXP 	slider: markerPos = np.float64(5.0760000000000005)
+130.8810 	EXP 	slider: markerPos = np.float64(5.0760000000000005)
+130.8982 	EXP 	slider: markerPos = np.float64(5.0760000000000005)
+130.9289 	EXP 	slider: markerPos = np.float64(5.0760000000000005)
+130.9314 	DATA 	Mouse:  Left button up, pos=(1429,608)
+130.9493 	EXP 	slider: markerPos = 5.0
+131.6544 	DATA 	Mouse: Left button down, pos=(1054,272)
+131.6808 	EXP 	slider: autoDraw = False
+131.6808 	EXP 	text_9: autoDraw = False
+131.6808 	EXP 	text_answer: autoDraw = False
+131.6808 	EXP 	text_8: autoDraw = True
+131.8013 	DATA 	Mouse:  Left button up, pos=(1053,265)
+132.0452 	INFO 	Keyboard events cleared
+132.0451 	EXP 	text_8: autoDraw = False
+132.0451 	EXP 	text_8: autoDraw = False
+132.0451 	EXP 	corrColor_2: height = np.float64(56.0)
+132.0451 	EXP 	corrColor_2: height = np.float64(56.0)
+132.0451 	EXP 	corrColor_2: height = np.float64(56.0)
+132.0451 	EXP 	corrColor_2: text = 'Orange'
+132.0451 	EXP 	R_2: height = np.float64(42.0)
+132.0451 	EXP 	R_2: height = np.float64(42.0)
+132.0451 	EXP 	R_2: height = np.float64(42.0)
+132.0451 	EXP 	R_2: text = 100
+132.0451 	EXP 	G_2: height = np.float64(42.0)
+132.0451 	EXP 	G_2: height = np.float64(42.0)
+132.0451 	EXP 	G_2: height = np.float64(42.0)
+132.0451 	EXP 	G_2: text = 45
+132.0451 	EXP 	B_2: height = np.float64(42.0)
+132.0451 	EXP 	B_2: height = np.float64(42.0)
+132.0451 	EXP 	B_2: height = np.float64(42.0)
+132.0451 	EXP 	B_2: text = 0
+132.0451 	EXP 	correctAnswer: autoDraw = True
+132.0451 	EXP 	RBGInfo_2: autoDraw = True
+132.0451 	EXP 	R_2: autoDraw = True
+132.0451 	EXP 	G_2: autoDraw = True
+132.0451 	EXP 	B_2: autoDraw = True
+132.5190 	DATA 	Mouse: Left button down, pos=(1055,264)
+132.5478 	EXP 	correctAnswer: autoDraw = False
+132.5478 	EXP 	wrongAnswer: autoDraw = False
+132.5478 	EXP 	corrColor_2: autoDraw = False
+132.5478 	EXP 	RBGInfo_2: autoDraw = False
+132.5478 	EXP 	R_2: autoDraw = False
+132.5478 	EXP 	G_2: autoDraw = False
+132.5478 	EXP 	B_2: autoDraw = False
+132.5478 	EXP 	text_11: autoDraw = True
+132.6503 	DATA 	Mouse:  Left button up, pos=(1055,264)
+132.8818 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'folder': '02-1', 'image': '016_Lime-green.jpg', 'logical': True, 'corrColor': 'Lime-green', 'corrR': 56, 'corrG': 100, 'corrB': 5, 'image_path': '02-1/016_Lime-green_0.png', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+132.9806 	EXP 	text_11: autoDraw = False
+132.9806 	EXP 	text_11: autoDraw = False
+132.9806 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+132.9806 	EXP 	img: ori = np.float64(0.0)
+132.9806 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+132.9806 	EXP 	counter_Text: height = np.float64(72.0)
+132.9806 	EXP 	counter_Text: height = np.float64(72.0)
+132.9806 	EXP 	counter_Text: height = np.float64(72.0)
+132.9806 	EXP 	counter_Text: text = 7
+132.9806 	EXP 	img: autoDraw = True
+132.9806 	EXP 	Instructions: autoDraw = True
+132.9806 	EXP 	RBGInfo: autoDraw = True
+132.9806 	EXP 	G: autoDraw = True
+132.9806 	EXP 	B: autoDraw = True
+132.9806 	EXP 	counter_Text: autoDraw = True
+132.9806 	EXP 	total_count: autoDraw = True
+133.2289 	EXP 	R: autoDraw = True
+134.5707 	DATA 	Keypress: space
+134.5712 	EXP 	Device response: <KeyPress from None: t=134.53031719999854, value=space, duration=None>
+134.6658 	EXP 	Device response: <KeyPress from None: t=134.53031719999854, value=space, duration=0.07958969997707754>
+139.2612 	DATA 	Mouse: Left button down, pos=(1696,752)
+139.2794 	EXP 	img: autoDraw = False
+139.2794 	EXP 	Instructions: autoDraw = False
+139.2794 	EXP 	RBGInfo: autoDraw = False
+139.2794 	EXP 	R: autoDraw = False
+139.2794 	EXP 	G: autoDraw = False
+139.2794 	EXP 	B: autoDraw = False
+139.2794 	EXP 	counter_Text: autoDraw = False
+139.2794 	EXP 	total_count: autoDraw = False
+139.2794 	EXP 	text_8: autoDraw = True
+139.3360 	DATA 	Mouse:  Left button up, pos=(1696,752)
+139.6451 	EXP 	text_8: autoDraw = False
+139.6451 	EXP 	text_8: autoDraw = False
+139.6451 	EXP 	slider: markerPos = None
+139.6451 	EXP 	slider: markerPos = 1
+139.6451 	EXP 	slider: autoDraw = True
+139.6451 	EXP 	text_9: autoDraw = True
+139.6451 	EXP 	text_answer: autoDraw = True
+140.3156 	DATA 	Mouse: Left button down, pos=(1434,596)
+140.3450 	EXP 	slider: markerPos = np.float64(5.096)
+140.3663 	EXP 	slider: markerPos = np.float64(5.096)
+140.3949 	EXP 	slider: markerPos = np.float64(5.096)
+140.4146 	EXP 	slider: markerPos = np.float64(5.096)
+140.4307 	EXP 	slider: markerPos = np.float64(5.096)
+140.4483 	EXP 	slider: markerPos = np.float64(5.096)
+140.4602 	DATA 	Mouse:  Left button up, pos=(1434,596)
+140.4786 	EXP 	slider: markerPos = np.float64(5.096)
+140.4993 	EXP 	slider: markerPos = 5.0
+141.0647 	DATA 	Mouse: Left button down, pos=(909,223)
+141.0809 	EXP 	slider: autoDraw = False
+141.0809 	EXP 	text_9: autoDraw = False
+141.0809 	EXP 	text_answer: autoDraw = False
+141.0809 	EXP 	text_8: autoDraw = True
+141.1997 	DATA 	Mouse:  Left button up, pos=(908,223)
+141.4451 	INFO 	Keyboard events cleared
+141.4449 	EXP 	text_8: autoDraw = False
+141.4449 	EXP 	text_8: autoDraw = False
+141.4449 	EXP 	corrColor_2: height = np.float64(56.0)
+141.4449 	EXP 	corrColor_2: height = np.float64(56.0)
+141.4449 	EXP 	corrColor_2: height = np.float64(56.0)
+141.4449 	EXP 	corrColor_2: text = 'Lime-green'
+141.4449 	EXP 	R_2: height = np.float64(42.0)
+141.4449 	EXP 	R_2: height = np.float64(42.0)
+141.4449 	EXP 	R_2: height = np.float64(42.0)
+141.4449 	EXP 	R_2: text = 56
+141.4449 	EXP 	G_2: height = np.float64(42.0)
+141.4449 	EXP 	G_2: height = np.float64(42.0)
+141.4449 	EXP 	G_2: height = np.float64(42.0)
+141.4449 	EXP 	G_2: text = 100
+141.4449 	EXP 	B_2: height = np.float64(42.0)
+141.4449 	EXP 	B_2: height = np.float64(42.0)
+141.4449 	EXP 	B_2: height = np.float64(42.0)
+141.4449 	EXP 	B_2: text = 5
+141.4449 	EXP 	correctAnswer: autoDraw = True
+141.4449 	EXP 	RBGInfo_2: autoDraw = True
+141.4449 	EXP 	R_2: autoDraw = True
+141.4449 	EXP 	G_2: autoDraw = True
+141.4449 	EXP 	B_2: autoDraw = True
+142.8990 	DATA 	Mouse: Left button down, pos=(974,251)
+142.9139 	EXP 	correctAnswer: autoDraw = False
+142.9139 	EXP 	wrongAnswer: autoDraw = False
+142.9139 	EXP 	corrColor_2: autoDraw = False
+142.9139 	EXP 	RBGInfo_2: autoDraw = False
+142.9139 	EXP 	R_2: autoDraw = False
+142.9139 	EXP 	G_2: autoDraw = False
+142.9139 	EXP 	B_2: autoDraw = False
+142.9139 	EXP 	text_11: autoDraw = True
+143.0334 	DATA 	Mouse:  Left button up, pos=(974,253)
+143.2484 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'folder': '02-1', 'image': '006_Pink.jpg', 'logical': True, 'corrColor': 'Pink', 'corrR': 100, 'corrG': 0, 'corrB': 50, 'image_path': '02-1/006_Pink_0.png', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+143.3463 	EXP 	text_11: autoDraw = False
+143.3463 	EXP 	text_11: autoDraw = False
+143.3463 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+143.3463 	EXP 	img: ori = np.float64(0.0)
+143.3463 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+143.3463 	EXP 	counter_Text: height = np.float64(72.0)
+143.3463 	EXP 	counter_Text: height = np.float64(72.0)
+143.3463 	EXP 	counter_Text: height = np.float64(72.0)
+143.3463 	EXP 	counter_Text: text = 8
+143.3463 	EXP 	img: autoDraw = True
+143.3463 	EXP 	Instructions: autoDraw = True
+143.3463 	EXP 	RBGInfo: autoDraw = True
+143.3463 	EXP 	G: autoDraw = True
+143.3463 	EXP 	B: autoDraw = True
+143.3463 	EXP 	counter_Text: autoDraw = True
+143.3463 	EXP 	total_count: autoDraw = True
+143.5968 	EXP 	R: autoDraw = True
+144.5714 	DATA 	Keypress: space
+144.5720 	EXP 	Device response: <KeyPress from None: t=144.50639939995017, value=space, duration=None>
+144.6637 	EXP 	Device response: <KeyPress from None: t=144.50639939995017, value=space, duration=0.10696410003583878>
+145.3708 	DATA 	Keypress: space
+145.3713 	EXP 	Device response: <KeyPress from None: t=145.35226319998037, value=space, duration=None>
+145.4603 	EXP 	Device response: <KeyPress from None: t=145.35226319998037, value=space, duration=0.08023229998070747>
+154.6840 	DATA 	Mouse: Left button down, pos=(1668,823)
+154.7621 	EXP 	img: autoDraw = False
+154.7621 	EXP 	Instructions: autoDraw = False
+154.7621 	EXP 	RBGInfo: autoDraw = False
+154.7621 	EXP 	R: autoDraw = False
+154.7621 	EXP 	G: autoDraw = False
+154.7621 	EXP 	B: autoDraw = False
+154.7621 	EXP 	counter_Text: autoDraw = False
+154.7621 	EXP 	total_count: autoDraw = False
+154.7621 	EXP 	text_8: autoDraw = True
+154.8176 	DATA 	Mouse:  Left button up, pos=(1668,823)
+155.1279 	EXP 	text_8: autoDraw = False
+155.1279 	EXP 	text_8: autoDraw = False
+155.1279 	EXP 	slider: markerPos = None
+155.1279 	EXP 	slider: markerPos = 1
+155.1279 	EXP 	slider: autoDraw = True
+155.1279 	EXP 	text_9: autoDraw = True
+155.1279 	EXP 	text_answer: autoDraw = True
+155.7980 	DATA 	Mouse: Left button down, pos=(1413,587)
+155.8276 	EXP 	slider: markerPos = np.float64(5.0120000000000005)
+155.8475 	EXP 	slider: markerPos = np.float64(5.0120000000000005)
+155.8775 	EXP 	slider: markerPos = np.float64(5.0120000000000005)
+155.8988 	EXP 	slider: markerPos = np.float64(5.0120000000000005)
+155.9124 	DATA 	Mouse:  Left button up, pos=(1413,586)
+155.9280 	EXP 	slider: markerPos = np.float64(5.0120000000000005)
+155.9472 	EXP 	slider: markerPos = 5.0
+156.4887 	DATA 	Mouse: Left button down, pos=(967,243)
+156.5307 	EXP 	slider: autoDraw = False
+156.5307 	EXP 	text_9: autoDraw = False
+156.5307 	EXP 	text_answer: autoDraw = False
+156.5307 	EXP 	text_8: autoDraw = True
+156.6155 	DATA 	Mouse:  Left button up, pos=(967,243)
+156.8944 	INFO 	Keyboard events cleared
+156.8943 	EXP 	text_8: autoDraw = False
+156.8943 	EXP 	corrColor_2: height = np.float64(56.0)
+156.8943 	EXP 	corrColor_2: height = np.float64(56.0)
+156.8943 	EXP 	corrColor_2: height = np.float64(56.0)
+156.8943 	EXP 	corrColor_2: text = 'Pink'
+156.8943 	EXP 	R_2: height = np.float64(42.0)
+156.8943 	EXP 	R_2: height = np.float64(42.0)
+156.8943 	EXP 	R_2: height = np.float64(42.0)
+156.8943 	EXP 	R_2: text = 100
+156.8943 	EXP 	G_2: height = np.float64(42.0)
+156.8943 	EXP 	G_2: height = np.float64(42.0)
+156.8943 	EXP 	G_2: height = np.float64(42.0)
+156.8943 	EXP 	G_2: text = 0
+156.8943 	EXP 	B_2: height = np.float64(42.0)
+156.8943 	EXP 	B_2: height = np.float64(42.0)
+156.8943 	EXP 	B_2: height = np.float64(42.0)
+156.8943 	EXP 	B_2: text = 50
+156.8943 	EXP 	correctAnswer: autoDraw = True
+156.8943 	EXP 	RBGInfo_2: autoDraw = True
+156.8943 	EXP 	R_2: autoDraw = True
+156.8943 	EXP 	G_2: autoDraw = True
+156.8943 	EXP 	B_2: autoDraw = True
+157.4983 	DATA 	Mouse: Left button down, pos=(988,278)
+157.5135 	EXP 	correctAnswer: autoDraw = False
+157.5135 	EXP 	wrongAnswer: autoDraw = False
+157.5135 	EXP 	corrColor_2: autoDraw = False
+157.5135 	EXP 	RBGInfo_2: autoDraw = False
+157.5135 	EXP 	R_2: autoDraw = False
+157.5135 	EXP 	G_2: autoDraw = False
+157.5135 	EXP 	B_2: autoDraw = False
+157.5135 	EXP 	text_11: autoDraw = True
+157.6168 	DATA 	Mouse:  Left button up, pos=(988,278)
+157.8491 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'folder': '02-1', 'image': '028_Pink.jpg', 'logical': True, 'corrColor': 'Pink', 'corrR': 98, 'corrG': 0, 'corrB': 50, 'image_path': '02-1/028_Pink_0.png', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+157.9460 	EXP 	text_11: autoDraw = False
+157.9460 	EXP 	text_11: autoDraw = False
+157.9460 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+157.9460 	EXP 	img: ori = np.float64(0.0)
+157.9460 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+157.9460 	EXP 	counter_Text: height = np.float64(72.0)
+157.9460 	EXP 	counter_Text: height = np.float64(72.0)
+157.9460 	EXP 	counter_Text: height = np.float64(72.0)
+157.9460 	EXP 	counter_Text: text = 9
+157.9460 	EXP 	img: autoDraw = True
+157.9460 	EXP 	Instructions: autoDraw = True
+157.9460 	EXP 	RBGInfo: autoDraw = True
+157.9460 	EXP 	G: autoDraw = True
+157.9460 	EXP 	B: autoDraw = True
+157.9460 	EXP 	counter_Text: autoDraw = True
+157.9460 	EXP 	total_count: autoDraw = True
+158.1617 	EXP 	R: autoDraw = True
+159.6962 	DATA 	Keypress: space
+159.6967 	EXP 	Device response: <KeyPress from None: t=159.68328849994577, value=space, duration=None>
+159.7979 	EXP 	Device response: <KeyPress from None: t=159.68328849994577, value=space, duration=0.08832440001424402>
+160.3846 	DATA 	Keypress: space
+160.3851 	EXP 	Device response: <KeyPress from None: t=160.36242059990764, value=space, duration=None>
+160.4817 	EXP 	Device response: <KeyPress from None: t=160.36242059990764, value=space, duration=0.09754550002980977>
+167.2136 	DATA 	Mouse: Left button down, pos=(1689,818)
+167.2293 	EXP 	img: autoDraw = False
+167.2293 	EXP 	Instructions: autoDraw = False
+167.2293 	EXP 	RBGInfo: autoDraw = False
+167.2293 	EXP 	R: autoDraw = False
+167.2293 	EXP 	G: autoDraw = False
+167.2293 	EXP 	B: autoDraw = False
+167.2293 	EXP 	counter_Text: autoDraw = False
+167.2293 	EXP 	total_count: autoDraw = False
+167.2293 	EXP 	text_8: autoDraw = True
+167.2500 	DATA 	Mouse:  Left button up, pos=(1689,818)
+167.5947 	EXP 	text_8: autoDraw = False
+167.5947 	EXP 	text_8: autoDraw = False
+167.5947 	EXP 	slider: markerPos = None
+167.5947 	EXP 	slider: markerPos = 1
+167.5947 	EXP 	slider: autoDraw = True
+167.5947 	EXP 	text_9: autoDraw = True
+167.5947 	EXP 	text_answer: autoDraw = True
+168.6125 	DATA 	Mouse: Left button down, pos=(1411,599)
+168.6438 	EXP 	slider: markerPos = np.float64(5.004)
+168.6635 	EXP 	slider: markerPos = np.float64(5.004)
+168.6796 	EXP 	slider: markerPos = np.float64(5.004)
+168.6970 	EXP 	slider: markerPos = np.float64(5.004)
+168.7275 	EXP 	slider: markerPos = np.float64(5.004)
+168.7302 	DATA 	Mouse:  Left button up, pos=(1411,596)
+168.7613 	EXP 	slider: markerPos = 5.0
+169.3234 	DATA 	Mouse: Left button down, pos=(1073,269)
+169.3634 	EXP 	slider: autoDraw = False
+169.3634 	EXP 	text_9: autoDraw = False
+169.3634 	EXP 	text_answer: autoDraw = False
+169.3634 	EXP 	text_8: autoDraw = True
+169.4328 	DATA 	Mouse:  Left button up, pos=(1073,267)
+169.7131 	INFO 	Keyboard events cleared
+169.7130 	EXP 	text_8: autoDraw = False
+169.7130 	EXP 	corrColor_2: text = 'Pink'
+169.7130 	EXP 	R_2: height = np.float64(42.0)
+169.7130 	EXP 	R_2: height = np.float64(42.0)
+169.7130 	EXP 	R_2: height = np.float64(42.0)
+169.7130 	EXP 	R_2: text = 98
+169.7130 	EXP 	G_2: height = np.float64(42.0)
+169.7130 	EXP 	G_2: height = np.float64(42.0)
+169.7130 	EXP 	G_2: height = np.float64(42.0)
+169.7130 	EXP 	G_2: text = 0
+169.7130 	EXP 	B_2: height = np.float64(42.0)
+169.7130 	EXP 	B_2: height = np.float64(42.0)
+169.7130 	EXP 	B_2: height = np.float64(42.0)
+169.7130 	EXP 	B_2: text = 50
+169.7130 	EXP 	correctAnswer: autoDraw = True
+169.7130 	EXP 	RBGInfo_2: autoDraw = True
+169.7130 	EXP 	R_2: autoDraw = True
+169.7130 	EXP 	G_2: autoDraw = True
+169.7130 	EXP 	B_2: autoDraw = True
+172.2816 	DATA 	Mouse: Left button down, pos=(1073,267)
+172.2965 	EXP 	correctAnswer: autoDraw = False
+172.2965 	EXP 	wrongAnswer: autoDraw = False
+172.2965 	EXP 	corrColor_2: autoDraw = False
+172.2965 	EXP 	RBGInfo_2: autoDraw = False
+172.2965 	EXP 	R_2: autoDraw = False
+172.2965 	EXP 	G_2: autoDraw = False
+172.2965 	EXP 	B_2: autoDraw = False
+172.2965 	EXP 	text_11: autoDraw = True
+172.3823 	DATA 	Mouse:  Left button up, pos=(1073,267)
+172.6299 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'folder': '01-1', 'image': '014_Yellow.jpg', 'logical': True, 'corrColor': 'Yellow', 'corrR': 100, 'corrG': 98, 'corrB': 11, 'image_path': '01-1/014_Yellow_0.png', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+172.7285 	EXP 	text_11: autoDraw = False
+172.7285 	EXP 	text_11: autoDraw = False
+172.7285 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+172.7285 	EXP 	img: ori = np.float64(0.0)
+172.7285 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+172.7285 	EXP 	counter_Text: height = np.float64(72.0)
+172.7285 	EXP 	counter_Text: height = np.float64(72.0)
+172.7285 	EXP 	counter_Text: height = np.float64(72.0)
+172.7285 	EXP 	counter_Text: text = 10
+172.7285 	EXP 	img: autoDraw = True
+172.7285 	EXP 	Instructions: autoDraw = True
+172.7285 	EXP 	RBGInfo: autoDraw = True
+172.7285 	EXP 	G: autoDraw = True
+172.7285 	EXP 	B: autoDraw = True
+172.7285 	EXP 	counter_Text: autoDraw = True
+172.7285 	EXP 	total_count: autoDraw = True
+172.9453 	EXP 	R: autoDraw = True
+174.3309 	DATA 	Keypress: space
+174.3313 	EXP 	Device response: <KeyPress from None: t=174.31435829994734, value=space, duration=None>
+174.4324 	EXP 	Device response: <KeyPress from None: t=174.31435829994734, value=space, duration=0.08935590006876737>
+181.5382 	DATA 	Mouse: Left button down, pos=(1664,584)
+181.5610 	EXP 	img: autoDraw = False
+181.5610 	EXP 	Instructions: autoDraw = False
+181.5610 	EXP 	RBGInfo: autoDraw = False
+181.5610 	EXP 	R: autoDraw = False
+181.5610 	EXP 	G: autoDraw = False
+181.5610 	EXP 	B: autoDraw = False
+181.5610 	EXP 	counter_Text: autoDraw = False
+181.5610 	EXP 	total_count: autoDraw = False
+181.5610 	EXP 	text_8: autoDraw = True
+181.6004 	DATA 	Mouse:  Left button up, pos=(1664,584)
+181.9268 	EXP 	text_8: autoDraw = False
+181.9268 	EXP 	slider: markerPos = None
+181.9268 	EXP 	slider: markerPos = 1
+181.9268 	EXP 	slider: autoDraw = True
+181.9268 	EXP 	text_9: autoDraw = True
+181.9268 	EXP 	text_answer: autoDraw = True
+182.9465 	DATA 	Mouse: Left button down, pos=(1418,618)
+182.9766 	EXP 	slider: markerPos = np.float64(5.032)
+182.9963 	EXP 	slider: markerPos = np.float64(5.032)
+183.0272 	EXP 	slider: markerPos = np.float64(5.032)
+183.0476 	EXP 	slider: markerPos = np.float64(5.032)
+183.0600 	DATA 	Mouse:  Left button up, pos=(1419,615)
+183.0769 	EXP 	slider: markerPos = np.float64(5.036)
+183.1101 	EXP 	slider: markerPos = 5.0
+183.7536 	DATA 	Mouse: Left button down, pos=(1068,261)
+183.7802 	EXP 	slider: autoDraw = False
+183.7802 	EXP 	text_9: autoDraw = False
+183.7802 	EXP 	text_answer: autoDraw = False
+183.7802 	EXP 	text_8: autoDraw = True
+183.8820 	DATA 	Mouse:  Left button up, pos=(1068,261)
+184.1430 	INFO 	Keyboard events cleared
+184.1429 	EXP 	text_8: autoDraw = False
+184.1429 	EXP 	text_8: autoDraw = False
+184.1429 	EXP 	corrColor_2: height = np.float64(56.0)
+184.1429 	EXP 	corrColor_2: height = np.float64(56.0)
+184.1429 	EXP 	corrColor_2: height = np.float64(56.0)
+184.1429 	EXP 	corrColor_2: text = 'Yellow'
+184.1429 	EXP 	R_2: height = np.float64(42.0)
+184.1429 	EXP 	R_2: height = np.float64(42.0)
+184.1429 	EXP 	R_2: height = np.float64(42.0)
+184.1429 	EXP 	R_2: text = 100
+184.1429 	EXP 	G_2: height = np.float64(42.0)
+184.1429 	EXP 	G_2: height = np.float64(42.0)
+184.1429 	EXP 	G_2: height = np.float64(42.0)
+184.1429 	EXP 	G_2: text = 98
+184.1429 	EXP 	B_2: height = np.float64(42.0)
+184.1429 	EXP 	B_2: height = np.float64(42.0)
+184.1429 	EXP 	B_2: height = np.float64(42.0)
+184.1429 	EXP 	B_2: text = 11
+184.1429 	EXP 	correctAnswer: autoDraw = True
+184.1429 	EXP 	RBGInfo_2: autoDraw = True
+184.1429 	EXP 	R_2: autoDraw = True
+184.1429 	EXP 	G_2: autoDraw = True
+184.1429 	EXP 	B_2: autoDraw = True
+184.8465 	DATA 	Mouse: Left button down, pos=(1068,261)
+184.8621 	EXP 	correctAnswer: autoDraw = False
+184.8621 	EXP 	wrongAnswer: autoDraw = False
+184.8621 	EXP 	corrColor_2: autoDraw = False
+184.8621 	EXP 	RBGInfo_2: autoDraw = False
+184.8621 	EXP 	R_2: autoDraw = False
+184.8621 	EXP 	G_2: autoDraw = False
+184.8621 	EXP 	B_2: autoDraw = False
+184.8621 	EXP 	text_11: autoDraw = True
+184.9475 	DATA 	Mouse:  Left button up, pos=(1068,261)
+185.1959 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'folder': '02-1', 'image': '012_Lime-green.jpg', 'logical': True, 'corrColor': 'Lime-green', 'corrR': 61, 'corrG': 94, 'corrB': 3, 'image_path': '02-1/012_Lime-green_0.png', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+185.2947 	EXP 	text_11: autoDraw = False
+185.2947 	EXP 	text_11: autoDraw = False
+185.2947 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+185.2947 	EXP 	img: ori = np.float64(0.0)
+185.2947 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+185.2947 	EXP 	counter_Text: height = np.float64(72.0)
+185.2947 	EXP 	counter_Text: height = np.float64(72.0)
+185.2947 	EXP 	counter_Text: height = np.float64(72.0)
+185.2947 	EXP 	counter_Text: text = 11
+185.2947 	EXP 	img: autoDraw = True
+185.2947 	EXP 	Instructions: autoDraw = True
+185.2947 	EXP 	RBGInfo: autoDraw = True
+185.2947 	EXP 	G: autoDraw = True
+185.2947 	EXP 	B: autoDraw = True
+185.2947 	EXP 	counter_Text: autoDraw = True
+185.2947 	EXP 	total_count: autoDraw = True
+185.5442 	EXP 	R: autoDraw = True
+186.5545 	DATA 	Keypress: space
+186.5550 	EXP 	Device response: <KeyPress from None: t=186.50709199998528, value=space, duration=None>
+186.6486 	EXP 	Device response: <KeyPress from None: t=186.50709199998528, value=space, duration=0.10686229995917529>
+193.7240 	DATA 	Mouse: Left button down, pos=(1670,769)
+193.7441 	EXP 	img: autoDraw = False
+193.7441 	EXP 	Instructions: autoDraw = False
+193.7441 	EXP 	RBGInfo: autoDraw = False
+193.7441 	EXP 	R: autoDraw = False
+193.7441 	EXP 	G: autoDraw = False
+193.7441 	EXP 	B: autoDraw = False
+193.7441 	EXP 	counter_Text: autoDraw = False
+193.7441 	EXP 	total_count: autoDraw = False
+193.7441 	EXP 	text_8: autoDraw = True
+193.7986 	DATA 	Mouse:  Left button up, pos=(1670,769)
+194.1095 	EXP 	text_8: autoDraw = False
+194.1095 	EXP 	slider: markerPos = None
+194.1095 	EXP 	slider: markerPos = 1
+194.1095 	EXP 	slider: autoDraw = True
+194.1095 	EXP 	text_9: autoDraw = True
+194.1095 	EXP 	text_answer: autoDraw = True
+195.9778 	DATA 	Mouse: Left button down, pos=(1389,576)
+196.0095 	EXP 	slider: markerPos = np.float64(4.916)
+196.0292 	EXP 	slider: markerPos = np.float64(4.916)
+196.0452 	EXP 	slider: markerPos = np.float64(4.916)
+196.0627 	EXP 	slider: markerPos = np.float64(4.916)
+196.0734 	DATA 	Mouse:  Left button up, pos=(1389,576)
+196.0941 	EXP 	slider: markerPos = np.float64(4.916)
+196.1263 	EXP 	slider: markerPos = 5.0
+197.0717 	DATA 	Mouse: Left button down, pos=(1037,243)
+197.1123 	EXP 	slider: autoDraw = False
+197.1123 	EXP 	text_9: autoDraw = False
+197.1123 	EXP 	text_answer: autoDraw = False
+197.1123 	EXP 	text_8: autoDraw = True
+197.1812 	DATA 	Mouse:  Left button up, pos=(1037,243)
+197.4765 	INFO 	Keyboard events cleared
+197.4763 	EXP 	text_8: autoDraw = False
+197.4763 	EXP 	corrColor_2: height = np.float64(56.0)
+197.4763 	EXP 	corrColor_2: height = np.float64(56.0)
+197.4763 	EXP 	corrColor_2: height = np.float64(56.0)
+197.4763 	EXP 	corrColor_2: text = 'Lime-green'
+197.4763 	EXP 	R_2: height = np.float64(42.0)
+197.4763 	EXP 	R_2: height = np.float64(42.0)
+197.4763 	EXP 	R_2: height = np.float64(42.0)
+197.4763 	EXP 	R_2: text = 61
+197.4763 	EXP 	G_2: height = np.float64(42.0)
+197.4763 	EXP 	G_2: height = np.float64(42.0)
+197.4763 	EXP 	G_2: height = np.float64(42.0)
+197.4763 	EXP 	G_2: text = 94
+197.4763 	EXP 	B_2: height = np.float64(42.0)
+197.4763 	EXP 	B_2: height = np.float64(42.0)
+197.4763 	EXP 	B_2: height = np.float64(42.0)
+197.4763 	EXP 	B_2: text = 3
+197.4763 	EXP 	correctAnswer: autoDraw = True
+197.4763 	EXP 	RBGInfo_2: autoDraw = True
+197.4763 	EXP 	R_2: autoDraw = True
+197.4763 	EXP 	G_2: autoDraw = True
+197.4763 	EXP 	B_2: autoDraw = True
+198.0661 	DATA 	Mouse: Left button down, pos=(1067,241)
+198.0791 	EXP 	correctAnswer: autoDraw = False
+198.0791 	EXP 	wrongAnswer: autoDraw = False
+198.0791 	EXP 	corrColor_2: autoDraw = False
+198.0791 	EXP 	RBGInfo_2: autoDraw = False
+198.0791 	EXP 	R_2: autoDraw = False
+198.0791 	EXP 	G_2: autoDraw = False
+198.0791 	EXP 	B_2: autoDraw = False
+198.0791 	EXP 	text_11: autoDraw = True
+198.1650 	DATA 	Mouse:  Left button up, pos=(1067,241)
+198.4135 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'folder': '02-1', 'image': '008_Orange.jpg', 'logical': True, 'corrColor': 'Orange', 'corrR': 100, 'corrG': 53, 'corrB': 0, 'image_path': '02-1/008_Orange_0.png', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+198.5294 	EXP 	text_11: autoDraw = False
+198.5294 	EXP 	text_11: autoDraw = False
+198.5294 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+198.5294 	EXP 	img: ori = np.float64(0.0)
+198.5294 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+198.5294 	EXP 	counter_Text: height = np.float64(72.0)
+198.5294 	EXP 	counter_Text: height = np.float64(72.0)
+198.5294 	EXP 	counter_Text: height = np.float64(72.0)
+198.5294 	EXP 	counter_Text: text = 12
+198.5294 	EXP 	img: autoDraw = True
+198.5294 	EXP 	Instructions: autoDraw = True
+198.5294 	EXP 	RBGInfo: autoDraw = True
+198.5294 	EXP 	G: autoDraw = True
+198.5294 	EXP 	B: autoDraw = True
+198.5294 	EXP 	counter_Text: autoDraw = True
+198.5294 	EXP 	total_count: autoDraw = True
+198.7282 	EXP 	R: autoDraw = True
+199.8979 	DATA 	Keypress: space
+199.8989 	EXP 	Device response: <KeyPress from None: t=199.83576579997316, value=space, duration=None>
+199.9975 	EXP 	Device response: <KeyPress from None: t=199.83576579997316, value=space, duration=0.09760620002634823>
+205.2028 	DATA 	Mouse: Left button down, pos=(1719,701)
+205.2272 	EXP 	img: autoDraw = False
+205.2272 	EXP 	Instructions: autoDraw = False
+205.2272 	EXP 	RBGInfo: autoDraw = False
+205.2272 	EXP 	R: autoDraw = False
+205.2272 	EXP 	G: autoDraw = False
+205.2272 	EXP 	B: autoDraw = False
+205.2272 	EXP 	counter_Text: autoDraw = False
+205.2272 	EXP 	total_count: autoDraw = False
+205.2272 	EXP 	text_8: autoDraw = True
+205.2972 	DATA 	Mouse:  Left button up, pos=(1719,701)
+205.5925 	EXP 	text_8: autoDraw = False
+205.5925 	EXP 	slider: markerPos = None
+205.5925 	EXP 	slider: markerPos = 1
+205.5925 	EXP 	slider: autoDraw = True
+205.5925 	EXP 	text_9: autoDraw = True
+205.5925 	EXP 	text_answer: autoDraw = True
+206.3571 	DATA 	Mouse: Left button down, pos=(1414,593)
+206.4093 	EXP 	slider: markerPos = np.float64(5.016)
+206.4304 	EXP 	slider: markerPos = np.float64(5.016)
+206.4595 	EXP 	slider: markerPos = np.float64(5.016)
+206.4759 	DATA 	Mouse:  Left button up, pos=(1414,593)
+206.4925 	EXP 	slider: markerPos = np.float64(5.016)
+206.5259 	EXP 	slider: markerPos = 5.0
+207.2359 	DATA 	Mouse: Left button down, pos=(1024,224)
+207.2614 	EXP 	slider: autoDraw = False
+207.2614 	EXP 	text_9: autoDraw = False
+207.2614 	EXP 	text_answer: autoDraw = False
+207.2614 	EXP 	text_8: autoDraw = True
+207.3482 	DATA 	Mouse:  Left button up, pos=(1025,224)
+207.6260 	INFO 	Keyboard events cleared
+207.6259 	EXP 	text_8: autoDraw = False
+207.6259 	EXP 	text_8: autoDraw = False
+207.6259 	EXP 	corrColor_2: height = np.float64(56.0)
+207.6259 	EXP 	corrColor_2: height = np.float64(56.0)
+207.6259 	EXP 	corrColor_2: height = np.float64(56.0)
+207.6259 	EXP 	corrColor_2: text = 'Orange'
+207.6259 	EXP 	R_2: height = np.float64(42.0)
+207.6259 	EXP 	R_2: height = np.float64(42.0)
+207.6259 	EXP 	R_2: height = np.float64(42.0)
+207.6259 	EXP 	R_2: text = 100
+207.6259 	EXP 	G_2: height = np.float64(42.0)
+207.6259 	EXP 	G_2: height = np.float64(42.0)
+207.6259 	EXP 	G_2: height = np.float64(42.0)
+207.6259 	EXP 	G_2: text = 53
+207.6259 	EXP 	B_2: height = np.float64(42.0)
+207.6259 	EXP 	B_2: height = np.float64(42.0)
+207.6259 	EXP 	B_2: height = np.float64(42.0)
+207.6259 	EXP 	B_2: text = 0
+207.6259 	EXP 	correctAnswer: autoDraw = True
+207.6259 	EXP 	RBGInfo_2: autoDraw = True
+207.6259 	EXP 	R_2: autoDraw = True
+207.6259 	EXP 	G_2: autoDraw = True
+207.6259 	EXP 	B_2: autoDraw = True
+208.1469 	DATA 	Mouse: Left button down, pos=(1064,256)
+208.1614 	EXP 	correctAnswer: autoDraw = False
+208.1614 	EXP 	wrongAnswer: autoDraw = False
+208.1614 	EXP 	corrColor_2: autoDraw = False
+208.1614 	EXP 	RBGInfo_2: autoDraw = False
+208.1614 	EXP 	R_2: autoDraw = False
+208.1614 	EXP 	G_2: autoDraw = False
+208.1614 	EXP 	B_2: autoDraw = False
+208.1614 	EXP 	text_11: autoDraw = True
+208.2484 	DATA 	Mouse:  Left button up, pos=(1066,258)
+208.4956 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'folder': '02-1', 'image': '011_Orange.jpg', 'logical': True, 'corrColor': 'Orange', 'corrR': 99, 'corrG': 48, 'corrB': 0, 'image_path': '02-1/011_Orange_0.png', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+208.5945 	EXP 	text_11: autoDraw = False
+208.5945 	EXP 	text_11: autoDraw = False
+208.5945 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+208.5945 	EXP 	img: ori = np.float64(0.0)
+208.5945 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+208.5945 	EXP 	counter_Text: height = np.float64(72.0)
+208.5945 	EXP 	counter_Text: height = np.float64(72.0)
+208.5945 	EXP 	counter_Text: height = np.float64(72.0)
+208.5945 	EXP 	counter_Text: text = 13
+208.5945 	EXP 	img: autoDraw = True
+208.5945 	EXP 	Instructions: autoDraw = True
+208.5945 	EXP 	RBGInfo: autoDraw = True
+208.5945 	EXP 	G: autoDraw = True
+208.5945 	EXP 	B: autoDraw = True
+208.5945 	EXP 	counter_Text: autoDraw = True
+208.5945 	EXP 	total_count: autoDraw = True
+208.8431 	EXP 	R: autoDraw = True
+209.5685 	DATA 	Keypress: space
+209.6486 	EXP 	Device response: <KeyPress from None: t=209.5667955999961, value=space, duration=None>
+209.7424 	EXP 	Device response: <KeyPress from None: t=209.5667955999961, value=space, duration=0.09793599997647107>
+217.9265 	DATA 	Mouse: Left button down, pos=(1721,709)
+218.0264 	EXP 	img: autoDraw = False
+218.0264 	EXP 	Instructions: autoDraw = False
+218.0264 	EXP 	RBGInfo: autoDraw = False
+218.0264 	EXP 	R: autoDraw = False
+218.0264 	EXP 	G: autoDraw = False
+218.0264 	EXP 	B: autoDraw = False
+218.0264 	EXP 	counter_Text: autoDraw = False
+218.0264 	EXP 	total_count: autoDraw = False
+218.0264 	EXP 	text_8: autoDraw = True
+218.0632 	DATA 	Mouse:  Left button up, pos=(1721,709)
+218.3920 	EXP 	text_8: autoDraw = False
+218.3920 	EXP 	text_8: autoDraw = False
+218.3920 	EXP 	slider: markerPos = None
+218.3920 	EXP 	slider: markerPos = 1
+218.3920 	EXP 	slider: autoDraw = True
+218.3920 	EXP 	text_9: autoDraw = True
+218.3920 	EXP 	text_answer: autoDraw = True
+218.9964 	DATA 	Mouse: Left button down, pos=(1397,593)
+219.0259 	EXP 	slider: markerPos = np.float64(4.948)
+219.0466 	EXP 	slider: markerPos = np.float64(4.948)
+219.0760 	EXP 	slider: markerPos = np.float64(4.948)
+219.0959 	EXP 	slider: markerPos = np.float64(4.948)
+219.1074 	DATA 	Mouse:  Left button up, pos=(1397,593)
+219.1255 	EXP 	slider: markerPos = np.float64(4.948)
+219.1461 	EXP 	slider: markerPos = 5.0
+220.3620 	DATA 	Mouse: Left button down, pos=(1043,279)
+220.3779 	EXP 	slider: autoDraw = False
+220.3779 	EXP 	text_9: autoDraw = False
+220.3779 	EXP 	text_answer: autoDraw = False
+220.3779 	EXP 	text_8: autoDraw = True
+220.4814 	DATA 	Mouse:  Left button up, pos=(1044,282)
+220.7421 	INFO 	Keyboard events cleared
+220.7420 	EXP 	text_8: autoDraw = False
+220.7420 	EXP 	text_8: autoDraw = False
+220.7420 	EXP 	corrColor_2: text = 'Orange'
+220.7420 	EXP 	R_2: height = np.float64(42.0)
+220.7420 	EXP 	R_2: height = np.float64(42.0)
+220.7420 	EXP 	R_2: height = np.float64(42.0)
+220.7420 	EXP 	R_2: text = 99
+220.7420 	EXP 	G_2: height = np.float64(42.0)
+220.7420 	EXP 	G_2: height = np.float64(42.0)
+220.7420 	EXP 	G_2: height = np.float64(42.0)
+220.7420 	EXP 	G_2: text = 48
+220.7420 	EXP 	B_2: height = np.float64(42.0)
+220.7420 	EXP 	B_2: height = np.float64(42.0)
+220.7420 	EXP 	B_2: height = np.float64(42.0)
+220.7420 	EXP 	B_2: text = 0
+220.7420 	EXP 	correctAnswer: autoDraw = True
+220.7420 	EXP 	RBGInfo_2: autoDraw = True
+220.7420 	EXP 	R_2: autoDraw = True
+220.7420 	EXP 	G_2: autoDraw = True
+220.7420 	EXP 	B_2: autoDraw = True
+221.5961 	DATA 	Mouse: Left button down, pos=(993,268)
+221.6108 	EXP 	correctAnswer: autoDraw = False
+221.6108 	EXP 	wrongAnswer: autoDraw = False
+221.6108 	EXP 	corrColor_2: autoDraw = False
+221.6108 	EXP 	RBGInfo_2: autoDraw = False
+221.6108 	EXP 	R_2: autoDraw = False
+221.6108 	EXP 	G_2: autoDraw = False
+221.6108 	EXP 	B_2: autoDraw = False
+221.6108 	EXP 	text_11: autoDraw = True
+221.7128 	DATA 	Mouse:  Left button up, pos=(995,270)
+221.9460 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'folder': '01-1', 'image': '007_Cyan.jpg', 'logical': True, 'corrColor': 'Cyan', 'corrR': 1, 'corrG': 89, 'corrB': 99, 'image_path': '01-1/007_Cyan_0.png', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+222.0273 	EXP 	text_11: autoDraw = False
+222.0273 	EXP 	text_11: autoDraw = False
+222.0273 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+222.0273 	EXP 	img: ori = np.float64(0.0)
+222.0273 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+222.0273 	EXP 	counter_Text: height = np.float64(72.0)
+222.0273 	EXP 	counter_Text: height = np.float64(72.0)
+222.0273 	EXP 	counter_Text: height = np.float64(72.0)
+222.0273 	EXP 	counter_Text: text = 14
+222.0273 	EXP 	img: autoDraw = True
+222.0273 	EXP 	Instructions: autoDraw = True
+222.0273 	EXP 	RBGInfo: autoDraw = True
+222.0273 	EXP 	G: autoDraw = True
+222.0273 	EXP 	B: autoDraw = True
+222.0273 	EXP 	counter_Text: autoDraw = True
+222.0273 	EXP 	total_count: autoDraw = True
+222.2273 	EXP 	R: autoDraw = True
+226.7060 	DATA 	Keypress: space
+226.7065 	EXP 	Device response: <KeyPress from None: t=226.6600032999413, value=space, duration=None>
+226.7894 	EXP 	Device response: <KeyPress from None: t=226.6600032999413, value=space, duration=0.08068750007078052>
+230.7992 	DATA 	Keypress: space
+230.7997 	EXP 	Device response: <KeyPress from None: t=230.79015989997424, value=space, duration=None>
+230.8891 	EXP 	Device response: <KeyPress from None: t=230.79015989997424, value=space, duration=0.08852430002298206>
+239.0948 	DATA 	Mouse: Left button down, pos=(1671,469)
+239.1089 	EXP 	img: autoDraw = False
+239.1089 	EXP 	Instructions: autoDraw = False
+239.1089 	EXP 	RBGInfo: autoDraw = False
+239.1089 	EXP 	R: autoDraw = False
+239.1089 	EXP 	G: autoDraw = False
+239.1089 	EXP 	B: autoDraw = False
+239.1089 	EXP 	counter_Text: autoDraw = False
+239.1089 	EXP 	total_count: autoDraw = False
+239.1089 	EXP 	text_8: autoDraw = True
+239.1803 	DATA 	Mouse:  Left button up, pos=(1671,469)
+239.4746 	EXP 	text_8: autoDraw = False
+239.4746 	EXP 	text_8: autoDraw = False
+239.4746 	EXP 	slider: markerPos = None
+239.4746 	EXP 	slider: markerPos = 1
+239.4746 	EXP 	slider: autoDraw = True
+239.4746 	EXP 	text_9: autoDraw = True
+239.4746 	EXP 	text_answer: autoDraw = True
+240.4793 	DATA 	Mouse: Left button down, pos=(1407,608)
+240.5082 	EXP 	slider: markerPos = np.float64(4.9879999999999995)
+240.5285 	EXP 	slider: markerPos = np.float64(4.9879999999999995)
+240.5580 	EXP 	slider: markerPos = np.float64(4.9879999999999995)
+240.5777 	EXP 	slider: markerPos = np.float64(4.996)
+240.5904 	DATA 	Mouse:  Left button up, pos=(1411,603)
+240.6081 	EXP 	slider: markerPos = np.float64(5.004)
+240.6285 	EXP 	slider: markerPos = 5.0
+241.2362 	DATA 	Mouse: Left button down, pos=(1064,266)
+241.2772 	EXP 	slider: autoDraw = False
+241.2772 	EXP 	text_9: autoDraw = False
+241.2772 	EXP 	text_answer: autoDraw = False
+241.2772 	EXP 	text_8: autoDraw = True
+241.3292 	DATA 	Mouse:  Left button up, pos=(1066,266)
+241.6582 	INFO 	Keyboard events cleared
+241.6581 	EXP 	text_8: autoDraw = False
+241.6581 	EXP 	corrColor_2: height = np.float64(56.0)
+241.6581 	EXP 	corrColor_2: height = np.float64(56.0)
+241.6581 	EXP 	corrColor_2: height = np.float64(56.0)
+241.6581 	EXP 	corrColor_2: text = 'Cyan'
+241.6581 	EXP 	R_2: height = np.float64(42.0)
+241.6581 	EXP 	R_2: height = np.float64(42.0)
+241.6581 	EXP 	R_2: height = np.float64(42.0)
+241.6581 	EXP 	R_2: text = 1
+241.6581 	EXP 	G_2: height = np.float64(42.0)
+241.6581 	EXP 	G_2: height = np.float64(42.0)
+241.6581 	EXP 	G_2: height = np.float64(42.0)
+241.6581 	EXP 	G_2: text = 89
+241.6581 	EXP 	B_2: height = np.float64(42.0)
+241.6581 	EXP 	B_2: height = np.float64(42.0)
+241.6581 	EXP 	B_2: height = np.float64(42.0)
+241.6581 	EXP 	B_2: text = 99
+241.6581 	EXP 	correctAnswer: autoDraw = True
+241.6581 	EXP 	RBGInfo_2: autoDraw = True
+241.6581 	EXP 	R_2: autoDraw = True
+241.6581 	EXP 	G_2: autoDraw = True
+241.6581 	EXP 	B_2: autoDraw = True
+242.1457 	DATA 	Mouse: Left button down, pos=(1053,245)
+242.1599 	EXP 	correctAnswer: autoDraw = False
+242.1599 	EXP 	wrongAnswer: autoDraw = False
+242.1599 	EXP 	corrColor_2: autoDraw = False
+242.1599 	EXP 	RBGInfo_2: autoDraw = False
+242.1599 	EXP 	R_2: autoDraw = False
+242.1599 	EXP 	G_2: autoDraw = False
+242.1599 	EXP 	B_2: autoDraw = False
+242.1599 	EXP 	text_11: autoDraw = True
+242.2809 	DATA 	Mouse:  Left button up, pos=(1053,247)
+242.4940 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'folder': '02-1', 'image': '014_Pink.jpg', 'logical': True, 'corrColor': 'Pink', 'corrR': 100, 'corrG': 9, 'corrB': 40, 'image_path': '02-1/014_Pink_0.png', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+242.5932 	EXP 	text_11: autoDraw = False
+242.5932 	EXP 	text_11: autoDraw = False
+242.5932 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+242.5932 	EXP 	img: ori = np.float64(0.0)
+242.5932 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+242.5932 	EXP 	counter_Text: height = np.float64(72.0)
+242.5932 	EXP 	counter_Text: height = np.float64(72.0)
+242.5932 	EXP 	counter_Text: height = np.float64(72.0)
+242.5932 	EXP 	counter_Text: text = 15
+242.5932 	EXP 	img: autoDraw = True
+242.5932 	EXP 	Instructions: autoDraw = True
+242.5932 	EXP 	RBGInfo: autoDraw = True
+242.5932 	EXP 	G: autoDraw = True
+242.5932 	EXP 	B: autoDraw = True
+242.5932 	EXP 	counter_Text: autoDraw = True
+242.5932 	EXP 	total_count: autoDraw = True
+242.8585 	EXP 	R: autoDraw = True
+243.8460 	DATA 	Keypress: space
+243.8466 	EXP 	Device response: <KeyPress from None: t=243.80241799994837, value=space, duration=None>
+243.9431 	EXP 	Device response: <KeyPress from None: t=243.80241799994837, value=space, duration=0.0886746000032872>
+246.4599 	DATA 	Keypress: space
+246.4605 	EXP 	Device response: <KeyPress from None: t=246.41376869997475, value=space, duration=None>
+246.5642 	EXP 	Device response: <KeyPress from None: t=246.41376869997475, value=space, duration=0.0799925000173971>
+250.6691 	DATA 	Mouse: Left button down, pos=(1656,820)
+250.7759 	EXP 	img: autoDraw = False
+250.7759 	EXP 	Instructions: autoDraw = False
+250.7759 	EXP 	RBGInfo: autoDraw = False
+250.7759 	EXP 	R: autoDraw = False
+250.7759 	EXP 	G: autoDraw = False
+250.7759 	EXP 	B: autoDraw = False
+250.7759 	EXP 	counter_Text: autoDraw = False
+250.7759 	EXP 	total_count: autoDraw = False
+250.7759 	EXP 	text_8: autoDraw = True
+250.7974 	DATA 	Mouse:  Left button up, pos=(1656,820)
+251.1408 	EXP 	text_8: autoDraw = False
+251.1408 	EXP 	slider: markerPos = None
+251.1408 	EXP 	slider: markerPos = 1
+251.1408 	EXP 	slider: autoDraw = True
+251.1408 	EXP 	text_9: autoDraw = True
+251.1408 	EXP 	text_answer: autoDraw = True
+251.9031 	DATA 	Mouse: Left button down, pos=(1416,604)
+251.9408 	EXP 	slider: markerPos = np.float64(5.024)
+251.9617 	EXP 	slider: markerPos = np.float64(5.024)
+251.9907 	EXP 	slider: markerPos = np.float64(5.024)
+252.0105 	EXP 	slider: markerPos = np.float64(5.024)
+252.0418 	EXP 	slider: markerPos = np.float64(5.024)
+252.0448 	DATA 	Mouse:  Left button up, pos=(1416,604)
+252.0743 	EXP 	slider: markerPos = 5.0
+253.1020 	DATA 	Mouse: Left button down, pos=(979,248)
+253.1435 	EXP 	slider: autoDraw = False
+253.1435 	EXP 	text_9: autoDraw = False
+253.1435 	EXP 	text_answer: autoDraw = False
+253.1435 	EXP 	text_8: autoDraw = True
+253.2120 	DATA 	Mouse:  Left button up, pos=(979,248)
+253.5074 	INFO 	Keyboard events cleared
+253.5073 	EXP 	text_8: autoDraw = False
+253.5073 	EXP 	corrColor_2: height = np.float64(56.0)
+253.5073 	EXP 	corrColor_2: height = np.float64(56.0)
+253.5073 	EXP 	corrColor_2: height = np.float64(56.0)
+253.5073 	EXP 	corrColor_2: text = 'Pink'
+253.5073 	EXP 	R_2: height = np.float64(42.0)
+253.5073 	EXP 	R_2: height = np.float64(42.0)
+253.5073 	EXP 	R_2: height = np.float64(42.0)
+253.5073 	EXP 	R_2: text = 100
+253.5073 	EXP 	G_2: height = np.float64(42.0)
+253.5073 	EXP 	G_2: height = np.float64(42.0)
+253.5073 	EXP 	G_2: height = np.float64(42.0)
+253.5073 	EXP 	G_2: text = 9
+253.5073 	EXP 	B_2: height = np.float64(42.0)
+253.5073 	EXP 	B_2: height = np.float64(42.0)
+253.5073 	EXP 	B_2: height = np.float64(42.0)
+253.5073 	EXP 	B_2: text = 40
+253.5073 	EXP 	correctAnswer: autoDraw = True
+253.5073 	EXP 	RBGInfo_2: autoDraw = True
+253.5073 	EXP 	R_2: autoDraw = True
+253.5073 	EXP 	G_2: autoDraw = True
+253.5073 	EXP 	B_2: autoDraw = True
+253.8779 	DATA 	Mouse: Left button down, pos=(997,244)
+253.8936 	EXP 	correctAnswer: autoDraw = False
+253.8936 	EXP 	wrongAnswer: autoDraw = False
+253.8936 	EXP 	corrColor_2: autoDraw = False
+253.8936 	EXP 	RBGInfo_2: autoDraw = False
+253.8936 	EXP 	R_2: autoDraw = False
+253.8936 	EXP 	G_2: autoDraw = False
+253.8936 	EXP 	B_2: autoDraw = False
+253.8936 	EXP 	text_11: autoDraw = True
+253.9962 	DATA 	Mouse:  Left button up, pos=(994,246)
+254.2277 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'folder': '01-1', 'image': '006_Purple.jpg', 'logical': True, 'corrColor': 'Purple', 'corrR': 65, 'corrG': 0, 'corrB': 100, 'image_path': '01-1/006_Purple_0.png', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+254.3261 	EXP 	text_11: autoDraw = False
+254.3261 	EXP 	text_11: autoDraw = False
+254.3261 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+254.3261 	EXP 	img: ori = np.float64(0.0)
+254.3261 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+254.3261 	EXP 	counter_Text: height = np.float64(72.0)
+254.3261 	EXP 	counter_Text: height = np.float64(72.0)
+254.3261 	EXP 	counter_Text: height = np.float64(72.0)
+254.3261 	EXP 	counter_Text: text = 16
+254.3261 	EXP 	img: autoDraw = True
+254.3261 	EXP 	Instructions: autoDraw = True
+254.3261 	EXP 	RBGInfo: autoDraw = True
+254.3261 	EXP 	G: autoDraw = True
+254.3261 	EXP 	B: autoDraw = True
+254.3261 	EXP 	counter_Text: autoDraw = True
+254.3261 	EXP 	total_count: autoDraw = True
+254.5749 	EXP 	R: autoDraw = True
+255.9775 	DATA 	Keypress: space
+256.0481 	EXP 	Device response: <KeyPress from None: t=255.97631990001537, value=space, duration=None>
+256.1435 	EXP 	Device response: <KeyPress from None: t=255.97631990001537, value=space, duration=0.08876589999999851>
+256.7748 	DATA 	Keypress: space
+256.8486 	EXP 	Device response: <KeyPress from None: t=256.7731496000197, value=space, duration=None>
+256.9443 	EXP 	Device response: <KeyPress from None: t=256.7731496000197, value=space, duration=0.09794509992934763>
+264.4683 	DATA 	Mouse: Left button down, pos=(1659,522)
+264.4913 	EXP 	img: autoDraw = False
+264.4913 	EXP 	Instructions: autoDraw = False
+264.4913 	EXP 	RBGInfo: autoDraw = False
+264.4913 	EXP 	R: autoDraw = False
+264.4913 	EXP 	G: autoDraw = False
+264.4913 	EXP 	B: autoDraw = False
+264.4913 	EXP 	counter_Text: autoDraw = False
+264.4913 	EXP 	total_count: autoDraw = False
+264.4913 	EXP 	text_8: autoDraw = True
+264.5801 	DATA 	Mouse:  Left button up, pos=(1659,522)
+264.8571 	EXP 	text_8: autoDraw = False
+264.8571 	EXP 	slider: markerPos = None
+264.8571 	EXP 	slider: markerPos = 1
+264.8571 	EXP 	slider: autoDraw = True
+264.8571 	EXP 	text_9: autoDraw = True
+264.8571 	EXP 	text_answer: autoDraw = True
+265.9362 	DATA 	Mouse: Left button down, pos=(1394,589)
+265.9766 	EXP 	slider: markerPos = np.float64(4.9399999999999995)
+266.0071 	EXP 	slider: markerPos = np.float64(4.948)
+266.0265 	EXP 	slider: markerPos = np.float64(4.952)
+266.0430 	EXP 	slider: markerPos = np.float64(4.9559999999999995)
+266.0463 	DATA 	Mouse:  Left button up, pos=(1399,589)
+266.0737 	EXP 	slider: markerPos = 5.0
+266.5941 	DATA 	Mouse: Left button down, pos=(932,211)
+266.6099 	EXP 	slider: autoDraw = False
+266.6099 	EXP 	text_9: autoDraw = False
+266.6099 	EXP 	text_answer: autoDraw = False
+266.6099 	EXP 	text_8: autoDraw = True
+266.7123 	DATA 	Mouse:  Left button up, pos=(932,214)
+266.9910 	INFO 	Keyboard events cleared
+266.9908 	EXP 	text_8: autoDraw = False
+266.9908 	EXP 	text_8: autoDraw = False
+266.9908 	EXP 	corrColor_2: height = np.float64(56.0)
+266.9908 	EXP 	corrColor_2: height = np.float64(56.0)
+266.9908 	EXP 	corrColor_2: height = np.float64(56.0)
+266.9908 	EXP 	corrColor_2: text = 'Purple'
+266.9908 	EXP 	R_2: height = np.float64(42.0)
+266.9908 	EXP 	R_2: height = np.float64(42.0)
+266.9908 	EXP 	R_2: height = np.float64(42.0)
+266.9908 	EXP 	R_2: text = 65
+266.9908 	EXP 	G_2: height = np.float64(42.0)
+266.9908 	EXP 	G_2: height = np.float64(42.0)
+266.9908 	EXP 	G_2: height = np.float64(42.0)
+266.9908 	EXP 	G_2: text = 0
+266.9908 	EXP 	B_2: height = np.float64(42.0)
+266.9908 	EXP 	B_2: height = np.float64(42.0)
+266.9908 	EXP 	B_2: height = np.float64(42.0)
+266.9908 	EXP 	B_2: text = 100
+266.9908 	EXP 	correctAnswer: autoDraw = True
+266.9908 	EXP 	RBGInfo_2: autoDraw = True
+266.9908 	EXP 	R_2: autoDraw = True
+266.9908 	EXP 	G_2: autoDraw = True
+266.9908 	EXP 	B_2: autoDraw = True
+267.5612 	DATA 	Mouse: Left button down, pos=(975,260)
+267.5763 	EXP 	correctAnswer: autoDraw = False
+267.5763 	EXP 	wrongAnswer: autoDraw = False
+267.5763 	EXP 	corrColor_2: autoDraw = False
+267.5763 	EXP 	RBGInfo_2: autoDraw = False
+267.5763 	EXP 	R_2: autoDraw = False
+267.5763 	EXP 	G_2: autoDraw = False
+267.5763 	EXP 	B_2: autoDraw = False
+267.5763 	EXP 	text_11: autoDraw = True
+267.6809 	DATA 	Mouse:  Left button up, pos=(976,262)
+267.9103 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'folder': '01-1', 'image': '008_Purple.jpg', 'logical': True, 'corrColor': 'Purple', 'corrR': 52, 'corrG': 0, 'corrB': 99, 'image_path': '01-1/008_Purple_0.png', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+268.0090 	EXP 	text_11: autoDraw = False
+268.0090 	EXP 	text_11: autoDraw = False
+268.0090 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+268.0090 	EXP 	img: ori = np.float64(0.0)
+268.0090 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+268.0090 	EXP 	counter_Text: height = np.float64(72.0)
+268.0090 	EXP 	counter_Text: height = np.float64(72.0)
+268.0090 	EXP 	counter_Text: height = np.float64(72.0)
+268.0090 	EXP 	counter_Text: text = 17
+268.0090 	EXP 	img: autoDraw = True
+268.0090 	EXP 	Instructions: autoDraw = True
+268.0090 	EXP 	RBGInfo: autoDraw = True
+268.0090 	EXP 	G: autoDraw = True
+268.0090 	EXP 	B: autoDraw = True
+268.0090 	EXP 	counter_Text: autoDraw = True
+268.0090 	EXP 	total_count: autoDraw = True
+268.2578 	EXP 	R: autoDraw = True
+271.2263 	DATA 	Keypress: space
+271.2267 	EXP 	Device response: <KeyPress from None: t=271.2109350999817, value=space, duration=None>
+271.3292 	EXP 	Device response: <KeyPress from None: t=271.2109350999817, value=space, duration=0.06183809996582568>
+271.7439 	DATA 	Keypress: space
+271.7445 	EXP 	Device response: <KeyPress from None: t=271.7197882999899, value=space, duration=None>
+271.8395 	EXP 	Device response: <KeyPress from None: t=271.7197882999899, value=space, duration=0.10694790002889931>
+276.2903 	DATA 	Mouse: Left button down, pos=(1633,528)
+276.4077 	EXP 	img: autoDraw = False
+276.4077 	EXP 	Instructions: autoDraw = False
+276.4077 	EXP 	RBGInfo: autoDraw = False
+276.4077 	EXP 	R: autoDraw = False
+276.4077 	EXP 	G: autoDraw = False
+276.4077 	EXP 	B: autoDraw = False
+276.4077 	EXP 	counter_Text: autoDraw = False
+276.4077 	EXP 	total_count: autoDraw = False
+276.4077 	EXP 	text_8: autoDraw = True
+276.4103 	DATA 	Mouse:  Left button up, pos=(1633,528)
+276.7732 	EXP 	text_8: autoDraw = False
+276.7732 	EXP 	slider: markerPos = None
+276.7732 	EXP 	slider: markerPos = 1
+276.7732 	EXP 	slider: autoDraw = True
+276.7732 	EXP 	text_9: autoDraw = True
+276.7732 	EXP 	text_answer: autoDraw = True
+278.1016 	DATA 	Mouse: Left button down, pos=(1410,623)
+278.1403 	EXP 	slider: markerPos = np.float64(5.0)
+278.1595 	EXP 	slider: markerPos = np.float64(5.0)
+278.1902 	EXP 	slider: markerPos = np.float64(5.0)
+278.2019 	DATA 	Mouse:  Left button up, pos=(1410,623)
+278.2232 	EXP 	slider: markerPos = np.float64(5.0)
+278.2428 	EXP 	slider: markerPos = 5.0
+279.1822 	DATA 	Mouse: Left button down, pos=(992,272)
+279.2087 	EXP 	slider: autoDraw = False
+279.2087 	EXP 	text_9: autoDraw = False
+279.2087 	EXP 	text_answer: autoDraw = False
+279.2087 	EXP 	text_8: autoDraw = True
+279.2945 	DATA 	Mouse:  Left button up, pos=(992,272)
+279.5733 	INFO 	Keyboard events cleared
+279.5732 	EXP 	text_8: autoDraw = False
+279.5732 	EXP 	text_8: autoDraw = False
+279.5732 	EXP 	corrColor_2: text = 'Purple'
+279.5732 	EXP 	R_2: height = np.float64(42.0)
+279.5732 	EXP 	R_2: height = np.float64(42.0)
+279.5732 	EXP 	R_2: height = np.float64(42.0)
+279.5732 	EXP 	R_2: text = 52
+279.5732 	EXP 	G_2: height = np.float64(42.0)
+279.5732 	EXP 	G_2: height = np.float64(42.0)
+279.5732 	EXP 	G_2: height = np.float64(42.0)
+279.5732 	EXP 	G_2: text = 0
+279.5732 	EXP 	B_2: height = np.float64(42.0)
+279.5732 	EXP 	B_2: height = np.float64(42.0)
+279.5732 	EXP 	B_2: height = np.float64(42.0)
+279.5732 	EXP 	B_2: text = 99
+279.5732 	EXP 	correctAnswer: autoDraw = True
+279.5732 	EXP 	RBGInfo_2: autoDraw = True
+279.5732 	EXP 	R_2: autoDraw = True
+279.5732 	EXP 	G_2: autoDraw = True
+279.5732 	EXP 	B_2: autoDraw = True
+279.9275 	DATA 	Mouse: Left button down, pos=(962,232)
+279.9419 	EXP 	correctAnswer: autoDraw = False
+279.9419 	EXP 	wrongAnswer: autoDraw = False
+279.9419 	EXP 	corrColor_2: autoDraw = False
+279.9419 	EXP 	RBGInfo_2: autoDraw = False
+279.9419 	EXP 	R_2: autoDraw = False
+279.9419 	EXP 	G_2: autoDraw = False
+279.9419 	EXP 	B_2: autoDraw = False
+279.9419 	EXP 	text_11: autoDraw = True
+280.0627 	DATA 	Mouse:  Left button up, pos=(963,232)
+280.2769 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'folder': '01-1', 'image': '011_Cyan.jpg', 'logical': True, 'corrColor': 'Cyan', 'corrR': 0, 'corrG': 88, 'corrB': 97, 'image_path': '01-1/011_Cyan_0.png', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+280.3919 	EXP 	text_11: autoDraw = False
+280.3919 	EXP 	text_11: autoDraw = False
+280.3919 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+280.3919 	EXP 	img: ori = np.float64(0.0)
+280.3919 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+280.3919 	EXP 	counter_Text: height = np.float64(72.0)
+280.3919 	EXP 	counter_Text: height = np.float64(72.0)
+280.3919 	EXP 	counter_Text: height = np.float64(72.0)
+280.3919 	EXP 	counter_Text: text = 18
+280.3919 	EXP 	img: autoDraw = True
+280.3919 	EXP 	Instructions: autoDraw = True
+280.3919 	EXP 	RBGInfo: autoDraw = True
+280.3919 	EXP 	G: autoDraw = True
+280.3919 	EXP 	B: autoDraw = True
+280.3919 	EXP 	counter_Text: autoDraw = True
+280.3919 	EXP 	total_count: autoDraw = True
+280.5590 	EXP 	R: autoDraw = True
+281.3603 	DATA 	Keypress: space
+281.3610 	EXP 	Device response: <KeyPress from None: t=281.34557199990377, value=space, duration=None>
+281.4530 	EXP 	Device response: <KeyPress from None: t=281.34557199990377, value=space, duration=0.09763750003185123>
+284.7458 	DATA 	Keypress: space
+284.7464 	EXP 	Device response: <KeyPress from None: t=284.6818459999049, value=space, duration=None>
+284.8355 	EXP 	Device response: <KeyPress from None: t=284.6818459999049, value=space, duration=0.0798341000918299>
+294.5259 	DATA 	Mouse: Left button down, pos=(1664,467)
+294.5402 	EXP 	img: autoDraw = False
+294.5402 	EXP 	Instructions: autoDraw = False
+294.5402 	EXP 	RBGInfo: autoDraw = False
+294.5402 	EXP 	R: autoDraw = False
+294.5402 	EXP 	G: autoDraw = False
+294.5402 	EXP 	B: autoDraw = False
+294.5402 	EXP 	counter_Text: autoDraw = False
+294.5402 	EXP 	total_count: autoDraw = False
+294.5402 	EXP 	text_8: autoDraw = True
+294.6288 	DATA 	Mouse:  Left button up, pos=(1664,467)
+294.9230 	EXP 	text_8: autoDraw = False
+294.9230 	EXP 	text_8: autoDraw = False
+294.9230 	EXP 	slider: markerPos = None
+294.9230 	EXP 	slider: markerPos = 1
+294.9230 	EXP 	slider: autoDraw = True
+294.9230 	EXP 	text_9: autoDraw = True
+294.9230 	EXP 	text_answer: autoDraw = True
+295.8007 	DATA 	Mouse: Left button down, pos=(1391,584)
+295.8395 	EXP 	slider: markerPos = np.float64(4.936)
+295.8602 	EXP 	slider: markerPos = np.float64(4.948)
+295.8891 	EXP 	slider: markerPos = np.float64(4.952)
+295.9087 	EXP 	slider: markerPos = np.float64(4.9559999999999995)
+295.9202 	DATA 	Mouse:  Left button up, pos=(1399,586)
+295.9393 	EXP 	slider: markerPos = np.float64(4.9559999999999995)
+295.9725 	EXP 	slider: markerPos = 5.0
+296.6432 	DATA 	Mouse: Left button down, pos=(1029,272)
+296.6585 	EXP 	slider: autoDraw = False
+296.6585 	EXP 	text_9: autoDraw = False
+296.6585 	EXP 	text_answer: autoDraw = False
+296.6585 	EXP 	text_8: autoDraw = True
+296.7604 	DATA 	Mouse:  Left button up, pos=(1029,272)
+297.0227 	INFO 	Keyboard events cleared
+297.0225 	EXP 	text_8: autoDraw = False
+297.0225 	EXP 	text_8: autoDraw = False
+297.0225 	EXP 	corrColor_2: height = np.float64(56.0)
+297.0225 	EXP 	corrColor_2: height = np.float64(56.0)
+297.0225 	EXP 	corrColor_2: height = np.float64(56.0)
+297.0225 	EXP 	corrColor_2: text = 'Cyan'
+297.0225 	EXP 	R_2: height = np.float64(42.0)
+297.0225 	EXP 	R_2: height = np.float64(42.0)
+297.0225 	EXP 	R_2: height = np.float64(42.0)
+297.0225 	EXP 	R_2: text = 0
+297.0225 	EXP 	G_2: height = np.float64(42.0)
+297.0225 	EXP 	G_2: height = np.float64(42.0)
+297.0225 	EXP 	G_2: height = np.float64(42.0)
+297.0225 	EXP 	G_2: text = 88
+297.0225 	EXP 	B_2: height = np.float64(42.0)
+297.0225 	EXP 	B_2: height = np.float64(42.0)
+297.0225 	EXP 	B_2: height = np.float64(42.0)
+297.0225 	EXP 	B_2: text = 97
+297.0225 	EXP 	correctAnswer: autoDraw = True
+297.0225 	EXP 	RBGInfo_2: autoDraw = True
+297.0225 	EXP 	R_2: autoDraw = True
+297.0225 	EXP 	G_2: autoDraw = True
+297.0225 	EXP 	B_2: autoDraw = True
+297.5449 	DATA 	Mouse: Left button down, pos=(1064,284)
+297.5578 	EXP 	correctAnswer: autoDraw = False
+297.5578 	EXP 	wrongAnswer: autoDraw = False
+297.5578 	EXP 	corrColor_2: autoDraw = False
+297.5578 	EXP 	RBGInfo_2: autoDraw = False
+297.5578 	EXP 	R_2: autoDraw = False
+297.5578 	EXP 	G_2: autoDraw = False
+297.5578 	EXP 	B_2: autoDraw = False
+297.5578 	EXP 	text_11: autoDraw = True
+297.6781 	DATA 	Mouse:  Left button up, pos=(1062,284)
+297.8921 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'folder': '02-1', 'image': '030_Seafoam.jpg', 'logical': True, 'corrColor': 'Seafoam', 'corrR': 0, 'corrG': 99, 'corrB': 67, 'image_path': '02-1/030_Seafoam_0.png', 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+297.9913 	EXP 	text_11: autoDraw = False
+297.9913 	EXP 	text_11: autoDraw = False
+297.9913 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+297.9913 	EXP 	img: ori = np.float64(0.0)
+297.9913 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+297.9913 	EXP 	counter_Text: height = np.float64(72.0)
+297.9913 	EXP 	counter_Text: height = np.float64(72.0)
+297.9913 	EXP 	counter_Text: height = np.float64(72.0)
+297.9913 	EXP 	counter_Text: text = 19
+297.9913 	EXP 	img: autoDraw = True
+297.9913 	EXP 	Instructions: autoDraw = True
+297.9913 	EXP 	RBGInfo: autoDraw = True
+297.9913 	EXP 	G: autoDraw = True
+297.9913 	EXP 	B: autoDraw = True
+297.9913 	EXP 	counter_Text: autoDraw = True
+297.9913 	EXP 	total_count: autoDraw = True
+298.2399 	EXP 	R: autoDraw = True
+298.8780 	DATA 	Keypress: space
+298.8784 	EXP 	Device response: <KeyPress from None: t=298.84473149990663, value=space, duration=None>
+298.9842 	EXP 	Device response: <KeyPress from None: t=298.84473149990663, value=space, duration=0.09790300007443875>
+302.4295 	DATA 	Keypress: space
+302.4298 	EXP 	Device response: <KeyPress from None: t=302.36103689996526, value=space, duration=None>
+302.5220 	EXP 	Device response: <KeyPress from None: t=302.36103689996526, value=space, duration=0.08903689996805042>
+310.0834 	DATA 	Mouse: Left button down, pos=(1721,871)
+310.1065 	EXP 	img: autoDraw = False
+310.1065 	EXP 	Instructions: autoDraw = False
+310.1065 	EXP 	RBGInfo: autoDraw = False
+310.1065 	EXP 	R: autoDraw = False
+310.1065 	EXP 	G: autoDraw = False
+310.1065 	EXP 	B: autoDraw = False
+310.1065 	EXP 	counter_Text: autoDraw = False
+310.1065 	EXP 	total_count: autoDraw = False
+310.1065 	EXP 	text_8: autoDraw = True
+310.1768 	DATA 	Mouse:  Left button up, pos=(1721,871)
+310.4722 	EXP 	text_8: autoDraw = False
+310.4722 	EXP 	slider: markerPos = None
+310.4722 	EXP 	slider: markerPos = 1
+310.4722 	EXP 	slider: autoDraw = True
+310.4722 	EXP 	text_9: autoDraw = True
+310.4722 	EXP 	text_answer: autoDraw = True
+311.7100 	DATA 	Mouse: Left button down, pos=(1395,567)
+311.7390 	EXP 	slider: markerPos = np.float64(4.944)
+311.7584 	EXP 	slider: markerPos = np.float64(4.9559999999999995)
+311.7891 	EXP 	slider: markerPos = np.float64(4.96)
+311.8081 	EXP 	slider: markerPos = np.float64(4.964)
+311.8386 	EXP 	slider: markerPos = np.float64(4.964)
+311.8409 	DATA 	Mouse:  Left button up, pos=(1401,567)
+311.8582 	EXP 	slider: markerPos = 5.0
+313.2259 	DATA 	Mouse: Left button down, pos=(1047,255)
+313.2408 	EXP 	slider: autoDraw = False
+313.2408 	EXP 	text_9: autoDraw = False
+313.2408 	EXP 	text_answer: autoDraw = False
+313.2408 	EXP 	text_8: autoDraw = True
+313.3422 	DATA 	Mouse:  Left button up, pos=(1047,255)
+313.6054 	INFO 	Keyboard events cleared
+313.6053 	EXP 	text_8: autoDraw = False
+313.6053 	EXP 	text_8: autoDraw = False
+313.6053 	EXP 	corrColor_2: height = np.float64(56.0)
+313.6053 	EXP 	corrColor_2: height = np.float64(56.0)
+313.6053 	EXP 	corrColor_2: height = np.float64(56.0)
+313.6053 	EXP 	corrColor_2: text = 'Seafoam'
+313.6053 	EXP 	R_2: height = np.float64(42.0)
+313.6053 	EXP 	R_2: height = np.float64(42.0)
+313.6053 	EXP 	R_2: height = np.float64(42.0)
+313.6053 	EXP 	R_2: text = 0
+313.6053 	EXP 	G_2: height = np.float64(42.0)
+313.6053 	EXP 	G_2: height = np.float64(42.0)
+313.6053 	EXP 	G_2: height = np.float64(42.0)
+313.6053 	EXP 	G_2: text = 99
+313.6053 	EXP 	B_2: height = np.float64(42.0)
+313.6053 	EXP 	B_2: height = np.float64(42.0)
+313.6053 	EXP 	B_2: height = np.float64(42.0)
+313.6053 	EXP 	B_2: text = 67
+313.6053 	EXP 	correctAnswer: autoDraw = True
+313.6053 	EXP 	RBGInfo_2: autoDraw = True
+313.6053 	EXP 	R_2: autoDraw = True
+313.6053 	EXP 	G_2: autoDraw = True
+313.6053 	EXP 	B_2: autoDraw = True
+314.2262 	DATA 	Mouse: Left button down, pos=(1051,254)
+314.2407 	EXP 	correctAnswer: autoDraw = False
+314.2407 	EXP 	wrongAnswer: autoDraw = False
+314.2407 	EXP 	corrColor_2: autoDraw = False
+314.2407 	EXP 	RBGInfo_2: autoDraw = False
+314.2407 	EXP 	R_2: autoDraw = False
+314.2407 	EXP 	G_2: autoDraw = False
+314.2407 	EXP 	B_2: autoDraw = False
+314.2407 	EXP 	text_11: autoDraw = True
+314.3437 	DATA 	Mouse:  Left button up, pos=(1052,255)
+314.5756 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'folder': '02-1', 'image': '014_Lime-green.jpg', 'logical': True, 'corrColor': 'Lime-green', 'corrR': 65, 'corrG': 100, 'corrB': 4, 'image_path': '02-1/014_Lime-green_0.png', 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+314.6740 	EXP 	text_11: autoDraw = False
+314.6740 	EXP 	text_11: autoDraw = False
+314.6740 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+314.6740 	EXP 	img: ori = np.float64(0.0)
+314.6740 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+314.6740 	EXP 	counter_Text: height = np.float64(72.0)
+314.6740 	EXP 	counter_Text: height = np.float64(72.0)
+314.6740 	EXP 	counter_Text: height = np.float64(72.0)
+314.6740 	EXP 	counter_Text: text = 20
+314.6740 	EXP 	img: autoDraw = True
+314.6740 	EXP 	Instructions: autoDraw = True
+314.6740 	EXP 	RBGInfo: autoDraw = True
+314.6740 	EXP 	G: autoDraw = True
+314.6740 	EXP 	B: autoDraw = True
+314.6740 	EXP 	counter_Text: autoDraw = True
+314.6740 	EXP 	total_count: autoDraw = True
+314.9226 	EXP 	R: autoDraw = True
+316.0609 	DATA 	Keypress: space
+316.0614 	EXP 	Device response: <KeyPress from None: t=316.05410209996626, value=space, duration=None>
+316.1582 	EXP 	Device response: <KeyPress from None: t=316.05410209996626, value=space, duration=0.0894789999583736>
+325.5027 	DATA 	Mouse: Left button down, pos=(1683,758)
+325.6060 	EXP 	img: autoDraw = False
+325.6060 	EXP 	Instructions: autoDraw = False
+325.6060 	EXP 	RBGInfo: autoDraw = False
+325.6060 	EXP 	R: autoDraw = False
+325.6060 	EXP 	G: autoDraw = False
+325.6060 	EXP 	B: autoDraw = False
+325.6060 	EXP 	counter_Text: autoDraw = False
+325.6060 	EXP 	total_count: autoDraw = False
+325.6060 	EXP 	text_8: autoDraw = True
+325.6431 	DATA 	Mouse:  Left button up, pos=(1683,758)
+325.9715 	EXP 	text_8: autoDraw = False
+325.9715 	EXP 	slider: markerPos = None
+325.9715 	EXP 	slider: markerPos = 1
+325.9715 	EXP 	slider: autoDraw = True
+325.9715 	EXP 	text_9: autoDraw = True
+325.9715 	EXP 	text_answer: autoDraw = True
+326.8259 	DATA 	Mouse: Left button down, pos=(1402,583)
+326.8545 	EXP 	slider: markerPos = np.float64(4.968)
+326.8743 	EXP 	slider: markerPos = np.float64(4.968)
+326.8906 	EXP 	slider: markerPos = np.float64(4.968)
+326.9095 	EXP 	slider: markerPos = np.float64(4.968)
+326.9381 	EXP 	slider: markerPos = np.float64(4.968)
+326.9579 	EXP 	slider: markerPos = np.float64(4.968)
+326.9596 	DATA 	Mouse:  Left button up, pos=(1401,583)
+326.9882 	EXP 	slider: markerPos = 5.0
+327.6495 	DATA 	Mouse: Left button down, pos=(1001,264)
+327.6906 	EXP 	slider: autoDraw = False
+327.6906 	EXP 	text_9: autoDraw = False
+327.6906 	EXP 	text_answer: autoDraw = False
+327.6906 	EXP 	text_8: autoDraw = True
+327.7759 	DATA 	Mouse:  Left button up, pos=(1001,264)
+328.0546 	INFO 	Keyboard events cleared
+328.0545 	EXP 	text_8: autoDraw = False
+328.0545 	EXP 	corrColor_2: height = np.float64(56.0)
+328.0545 	EXP 	corrColor_2: height = np.float64(56.0)
+328.0545 	EXP 	corrColor_2: height = np.float64(56.0)
+328.0545 	EXP 	corrColor_2: text = 'Lime-green'
+328.0545 	EXP 	R_2: height = np.float64(42.0)
+328.0545 	EXP 	R_2: height = np.float64(42.0)
+328.0545 	EXP 	R_2: height = np.float64(42.0)
+328.0545 	EXP 	R_2: text = 65
+328.0545 	EXP 	G_2: height = np.float64(42.0)
+328.0545 	EXP 	G_2: height = np.float64(42.0)
+328.0545 	EXP 	G_2: height = np.float64(42.0)
+328.0545 	EXP 	G_2: text = 100
+328.0545 	EXP 	B_2: height = np.float64(42.0)
+328.0545 	EXP 	B_2: height = np.float64(42.0)
+328.0545 	EXP 	B_2: height = np.float64(42.0)
+328.0545 	EXP 	B_2: text = 4
+328.0545 	EXP 	correctAnswer: autoDraw = True
+328.0545 	EXP 	RBGInfo_2: autoDraw = True
+328.0545 	EXP 	R_2: autoDraw = True
+328.0545 	EXP 	G_2: autoDraw = True
+328.0545 	EXP 	B_2: autoDraw = True
+328.6267 	DATA 	Mouse: Left button down, pos=(974,262)
+328.6407 	EXP 	correctAnswer: autoDraw = False
+328.6407 	EXP 	wrongAnswer: autoDraw = False
+328.6407 	EXP 	corrColor_2: autoDraw = False
+328.6407 	EXP 	RBGInfo_2: autoDraw = False
+328.6407 	EXP 	R_2: autoDraw = False
+328.6407 	EXP 	G_2: autoDraw = False
+328.6407 	EXP 	B_2: autoDraw = False
+328.6407 	EXP 	text_11: autoDraw = True
+328.7592 	DATA 	Mouse:  Left button up, pos=(978,266)
+328.9758 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'folder': '02-1', 'image': '029_Seafoam.jpg', 'logical': True, 'corrColor': 'Seafoam', 'corrR': 0, 'corrG': 100, 'corrB': 74, 'image_path': '02-1/029_Seafoam_0.png', 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+329.0728 	EXP 	text_11: autoDraw = False
+329.0728 	EXP 	text_11: autoDraw = False
+329.0728 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+329.0728 	EXP 	img: ori = np.float64(0.0)
+329.0728 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+329.0728 	EXP 	counter_Text: height = np.float64(72.0)
+329.0728 	EXP 	counter_Text: height = np.float64(72.0)
+329.0728 	EXP 	counter_Text: height = np.float64(72.0)
+329.0728 	EXP 	counter_Text: text = 21
+329.0728 	EXP 	img: autoDraw = True
+329.0728 	EXP 	Instructions: autoDraw = True
+329.0728 	EXP 	RBGInfo: autoDraw = True
+329.0728 	EXP 	G: autoDraw = True
+329.0728 	EXP 	B: autoDraw = True
+329.0728 	EXP 	counter_Text: autoDraw = True
+329.0728 	EXP 	total_count: autoDraw = True
+329.3075 	EXP 	R: autoDraw = True
+330.1035 	DATA 	Keypress: space
+330.1768 	EXP 	Device response: <KeyPress from None: t=330.10148730000947, value=space, duration=None>
+330.2745 	EXP 	Device response: <KeyPress from None: t=330.10148730000947, value=space, duration=0.10685679991729558>
+333.5111 	DATA 	Keypress: space
+333.5115 	EXP 	Device response: <KeyPress from None: t=333.4900695999386, value=space, duration=None>
+333.6056 	EXP 	Device response: <KeyPress from None: t=333.4900695999386, value=space, duration=0.07975320005789399>
+341.8229 	DATA 	Mouse: Left button down, pos=(1690,882)
+341.9053 	EXP 	img: autoDraw = False
+341.9053 	EXP 	Instructions: autoDraw = False
+341.9053 	EXP 	RBGInfo: autoDraw = False
+341.9053 	EXP 	R: autoDraw = False
+341.9053 	EXP 	G: autoDraw = False
+341.9053 	EXP 	B: autoDraw = False
+341.9053 	EXP 	counter_Text: autoDraw = False
+341.9053 	EXP 	total_count: autoDraw = False
+341.9053 	EXP 	text_8: autoDraw = True
+341.9428 	DATA 	Mouse:  Left button up, pos=(1690,882)
+342.2712 	EXP 	text_8: autoDraw = False
+342.2712 	EXP 	text_8: autoDraw = False
+342.2712 	EXP 	slider: markerPos = None
+342.2712 	EXP 	slider: markerPos = 1
+342.2712 	EXP 	slider: autoDraw = True
+342.2712 	EXP 	text_9: autoDraw = True
+342.2712 	EXP 	text_answer: autoDraw = True
+342.9919 	DATA 	Mouse: Left button down, pos=(1395,594)
+343.0207 	EXP 	slider: markerPos = np.float64(4.9399999999999995)
+343.0407 	EXP 	slider: markerPos = np.float64(4.948)
+343.0708 	EXP 	slider: markerPos = np.float64(4.948)
+343.0917 	EXP 	slider: markerPos = np.float64(4.948)
+343.1209 	EXP 	slider: markerPos = np.float64(4.948)
+343.1235 	DATA 	Mouse:  Left button up, pos=(1397,591)
+343.1542 	EXP 	slider: markerPos = 5.0
+344.1317 	DATA 	Mouse: Left button down, pos=(1041,263)
+344.1734 	EXP 	slider: autoDraw = False
+344.1734 	EXP 	text_9: autoDraw = False
+344.1734 	EXP 	text_answer: autoDraw = False
+344.1734 	EXP 	text_8: autoDraw = True
+344.2414 	DATA 	Mouse:  Left button up, pos=(1041,263)
+344.5374 	INFO 	Keyboard events cleared
+344.5373 	EXP 	text_8: autoDraw = False
+344.5373 	EXP 	corrColor_2: height = np.float64(56.0)
+344.5373 	EXP 	corrColor_2: height = np.float64(56.0)
+344.5373 	EXP 	corrColor_2: height = np.float64(56.0)
+344.5373 	EXP 	corrColor_2: text = 'Seafoam'
+344.5373 	EXP 	R_2: height = np.float64(42.0)
+344.5373 	EXP 	R_2: height = np.float64(42.0)
+344.5373 	EXP 	R_2: height = np.float64(42.0)
+344.5373 	EXP 	R_2: text = 0
+344.5373 	EXP 	G_2: height = np.float64(42.0)
+344.5373 	EXP 	G_2: height = np.float64(42.0)
+344.5373 	EXP 	G_2: height = np.float64(42.0)
+344.5373 	EXP 	G_2: text = 100
+344.5373 	EXP 	B_2: height = np.float64(42.0)
+344.5373 	EXP 	B_2: height = np.float64(42.0)
+344.5373 	EXP 	B_2: height = np.float64(42.0)
+344.5373 	EXP 	B_2: text = 74
+344.5373 	EXP 	correctAnswer: autoDraw = True
+344.5373 	EXP 	RBGInfo_2: autoDraw = True
+344.5373 	EXP 	R_2: autoDraw = True
+344.5373 	EXP 	G_2: autoDraw = True
+344.5373 	EXP 	B_2: autoDraw = True
+345.0076 	DATA 	Mouse: Left button down, pos=(1034,238)
+345.0237 	EXP 	correctAnswer: autoDraw = False
+345.0237 	EXP 	wrongAnswer: autoDraw = False
+345.0237 	EXP 	corrColor_2: autoDraw = False
+345.0237 	EXP 	RBGInfo_2: autoDraw = False
+345.0237 	EXP 	R_2: autoDraw = False
+345.0237 	EXP 	G_2: autoDraw = False
+345.0237 	EXP 	B_2: autoDraw = False
+345.0237 	EXP 	text_11: autoDraw = True
+345.1261 	DATA 	Mouse:  Left button up, pos=(1034,240)
+345.3569 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'folder': '01-1', 'image': '018_Purple.jpg', 'logical': True, 'corrColor': 'Purple', 'corrR': 51, 'corrG': 2, 'corrB': 100, 'image_path': '01-1/018_Purple_0.png', 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+345.4395 	EXP 	text_11: autoDraw = False
+345.4395 	EXP 	text_11: autoDraw = False
+345.4395 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+345.4395 	EXP 	img: ori = np.float64(0.0)
+345.4395 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+345.4395 	EXP 	counter_Text: height = np.float64(72.0)
+345.4395 	EXP 	counter_Text: height = np.float64(72.0)
+345.4395 	EXP 	counter_Text: height = np.float64(72.0)
+345.4395 	EXP 	counter_Text: text = 22
+345.4395 	EXP 	img: autoDraw = True
+345.4395 	EXP 	Instructions: autoDraw = True
+345.4395 	EXP 	RBGInfo: autoDraw = True
+345.4395 	EXP 	G: autoDraw = True
+345.4395 	EXP 	B: autoDraw = True
+345.4395 	EXP 	counter_Text: autoDraw = True
+345.4395 	EXP 	total_count: autoDraw = True
+345.6547 	EXP 	R: autoDraw = True
+348.0873 	DATA 	Keypress: space
+348.0878 	EXP 	Device response: <KeyPress from None: t=348.0300109999953, value=space, duration=None>
+348.1842 	EXP 	Device response: <KeyPress from None: t=348.0300109999953, value=space, duration=0.07081710000056773>
+349.0072 	DATA 	Keypress: space
+349.0088 	EXP 	Device response: <KeyPress from None: t=348.9542376999743, value=space, duration=None>
+349.0985 	EXP 	Device response: <KeyPress from None: t=348.9542376999743, value=space, duration=0.07972199993673712>
+355.8784 	DATA 	Mouse: Left button down, pos=(1638,527)
+355.8880 	EXP 	img: autoDraw = False
+355.8880 	EXP 	Instructions: autoDraw = False
+355.8880 	EXP 	RBGInfo: autoDraw = False
+355.8880 	EXP 	R: autoDraw = False
+355.8880 	EXP 	G: autoDraw = False
+355.8880 	EXP 	B: autoDraw = False
+355.8880 	EXP 	counter_Text: autoDraw = False
+355.8880 	EXP 	total_count: autoDraw = False
+355.8880 	EXP 	text_8: autoDraw = True
+355.9435 	DATA 	Mouse:  Left button up, pos=(1638,527)
+356.2702 	EXP 	text_8: autoDraw = False
+356.2702 	EXP 	text_8: autoDraw = False
+356.2702 	EXP 	slider: markerPos = None
+356.2702 	EXP 	slider: markerPos = 1
+356.2702 	EXP 	slider: autoDraw = True
+356.2702 	EXP 	text_9: autoDraw = True
+356.2702 	EXP 	text_answer: autoDraw = True
+356.9407 	DATA 	Mouse: Left button down, pos=(1403,592)
+356.9703 	EXP 	slider: markerPos = np.float64(4.9719999999999995)
+356.9898 	EXP 	slider: markerPos = np.float64(4.9719999999999995)
+357.0059 	EXP 	slider: markerPos = np.float64(4.9719999999999995)
+357.0232 	EXP 	slider: markerPos = np.float64(4.9719999999999995)
+357.0403 	EXP 	slider: markerPos = np.float64(4.9719999999999995)
+357.0704 	EXP 	slider: markerPos = np.float64(4.9719999999999995)
+357.0721 	DATA 	Mouse:  Left button up, pos=(1403,592)
+357.0897 	EXP 	slider: markerPos = 5.0
+357.7239 	DATA 	Mouse: Left button down, pos=(994,233)
+357.7393 	EXP 	slider: autoDraw = False
+357.7393 	EXP 	text_9: autoDraw = False
+357.7393 	EXP 	text_answer: autoDraw = False
+357.7393 	EXP 	text_8: autoDraw = True
+357.8412 	DATA 	Mouse:  Left button up, pos=(994,233)
+358.1035 	INFO 	Keyboard events cleared
+358.1035 	EXP 	text_8: autoDraw = False
+358.1035 	EXP 	text_8: autoDraw = False
+358.1035 	EXP 	corrColor_2: height = np.float64(56.0)
+358.1035 	EXP 	corrColor_2: height = np.float64(56.0)
+358.1035 	EXP 	corrColor_2: height = np.float64(56.0)
+358.1035 	EXP 	corrColor_2: text = 'Purple'
+358.1035 	EXP 	R_2: height = np.float64(42.0)
+358.1035 	EXP 	R_2: height = np.float64(42.0)
+358.1035 	EXP 	R_2: height = np.float64(42.0)
+358.1035 	EXP 	R_2: text = 51
+358.1035 	EXP 	G_2: height = np.float64(42.0)
+358.1035 	EXP 	G_2: height = np.float64(42.0)
+358.1035 	EXP 	G_2: height = np.float64(42.0)
+358.1035 	EXP 	G_2: text = 2
+358.1035 	EXP 	B_2: height = np.float64(42.0)
+358.1035 	EXP 	B_2: height = np.float64(42.0)
+358.1035 	EXP 	B_2: height = np.float64(42.0)
+358.1035 	EXP 	B_2: text = 100
+358.1035 	EXP 	correctAnswer: autoDraw = True
+358.1035 	EXP 	RBGInfo_2: autoDraw = True
+358.1035 	EXP 	R_2: autoDraw = True
+358.1035 	EXP 	G_2: autoDraw = True
+358.1035 	EXP 	B_2: autoDraw = True
+358.7425 	DATA 	Mouse: Left button down, pos=(1030,270)
+358.7568 	EXP 	correctAnswer: autoDraw = False
+358.7568 	EXP 	wrongAnswer: autoDraw = False
+358.7568 	EXP 	corrColor_2: autoDraw = False
+358.7568 	EXP 	RBGInfo_2: autoDraw = False
+358.7568 	EXP 	R_2: autoDraw = False
+358.7568 	EXP 	G_2: autoDraw = False
+358.7568 	EXP 	B_2: autoDraw = False
+358.7568 	EXP 	text_11: autoDraw = True
+358.8592 	DATA 	Mouse:  Left button up, pos=(1030,270)
+359.0917 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'folder': '02-1', 'image': '018_Lime-green.jpg', 'logical': True, 'corrColor': 'Lime-green', 'corrR': 47, 'corrG': 100, 'corrB': 1, 'image_path': '02-1/018_Lime-green_0.png', 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+359.1883 	EXP 	text_11: autoDraw = False
+359.1883 	EXP 	text_11: autoDraw = False
+359.1883 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+359.1883 	EXP 	img: ori = np.float64(0.0)
+359.1883 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+359.1883 	EXP 	counter_Text: height = np.float64(72.0)
+359.1883 	EXP 	counter_Text: height = np.float64(72.0)
+359.1883 	EXP 	counter_Text: height = np.float64(72.0)
+359.1883 	EXP 	counter_Text: text = 23
+359.1883 	EXP 	img: autoDraw = True
+359.1883 	EXP 	Instructions: autoDraw = True
+359.1883 	EXP 	RBGInfo: autoDraw = True
+359.1883 	EXP 	G: autoDraw = True
+359.1883 	EXP 	B: autoDraw = True
+359.1883 	EXP 	counter_Text: autoDraw = True
+359.1883 	EXP 	total_count: autoDraw = True
+359.3875 	EXP 	R: autoDraw = True
+363.4442 	DATA 	Keypress: space
+363.4447 	EXP 	Device response: <KeyPress from None: t=363.3986495999852, value=space, duration=None>
+363.5370 	EXP 	Device response: <KeyPress from None: t=363.3986495999852, value=space, duration=0.07963829999789596>
+369.0892 	DATA 	Mouse: Left button down, pos=(1675,768)
+369.1048 	EXP 	img: autoDraw = False
+369.1048 	EXP 	Instructions: autoDraw = False
+369.1048 	EXP 	RBGInfo: autoDraw = False
+369.1048 	EXP 	R: autoDraw = False
+369.1048 	EXP 	G: autoDraw = False
+369.1048 	EXP 	B: autoDraw = False
+369.1048 	EXP 	counter_Text: autoDraw = False
+369.1048 	EXP 	total_count: autoDraw = False
+369.1048 	EXP 	text_8: autoDraw = True
+369.1603 	DATA 	Mouse:  Left button up, pos=(1675,768)
+369.4704 	EXP 	text_8: autoDraw = False
+369.4704 	EXP 	text_8: autoDraw = False
+369.4704 	EXP 	slider: markerPos = None
+369.4704 	EXP 	slider: markerPos = 1
+369.4704 	EXP 	slider: autoDraw = True
+369.4704 	EXP 	text_9: autoDraw = True
+369.4704 	EXP 	text_answer: autoDraw = True
+370.1552 	DATA 	Mouse: Left button down, pos=(1440,598)
+370.1870 	EXP 	slider: markerPos = np.float64(5.12)
+370.2069 	EXP 	slider: markerPos = np.float64(5.12)
+370.2370 	EXP 	slider: markerPos = np.float64(5.12)
+370.2569 	EXP 	slider: markerPos = np.float64(5.12)
+370.2688 	DATA 	Mouse:  Left button up, pos=(1440,598)
+370.2871 	EXP 	slider: markerPos = np.float64(5.12)
+370.3202 	EXP 	slider: markerPos = 5.0
+370.9710 	DATA 	Mouse: Left button down, pos=(1026,294)
+370.9898 	EXP 	slider: autoDraw = False
+370.9898 	EXP 	text_9: autoDraw = False
+370.9898 	EXP 	text_answer: autoDraw = False
+370.9898 	EXP 	text_8: autoDraw = True
+371.0927 	DATA 	Mouse:  Left button up, pos=(1030,293)
+371.3530 	INFO 	Keyboard events cleared
+371.3529 	EXP 	text_8: autoDraw = False
+371.3529 	EXP 	text_8: autoDraw = False
+371.3529 	EXP 	corrColor_2: height = np.float64(56.0)
+371.3529 	EXP 	corrColor_2: height = np.float64(56.0)
+371.3529 	EXP 	corrColor_2: height = np.float64(56.0)
+371.3529 	EXP 	corrColor_2: text = 'Lime-green'
+371.3529 	EXP 	R_2: height = np.float64(42.0)
+371.3529 	EXP 	R_2: height = np.float64(42.0)
+371.3529 	EXP 	R_2: height = np.float64(42.0)
+371.3529 	EXP 	R_2: text = 47
+371.3529 	EXP 	G_2: height = np.float64(42.0)
+371.3529 	EXP 	G_2: height = np.float64(42.0)
+371.3529 	EXP 	G_2: height = np.float64(42.0)
+371.3529 	EXP 	G_2: text = 100
+371.3529 	EXP 	B_2: height = np.float64(42.0)
+371.3529 	EXP 	B_2: height = np.float64(42.0)
+371.3529 	EXP 	B_2: height = np.float64(42.0)
+371.3529 	EXP 	B_2: text = 1
+371.3529 	EXP 	correctAnswer: autoDraw = True
+371.3529 	EXP 	RBGInfo_2: autoDraw = True
+371.3529 	EXP 	R_2: autoDraw = True
+371.3529 	EXP 	G_2: autoDraw = True
+371.3529 	EXP 	B_2: autoDraw = True
+371.7902 	DATA 	Mouse: Left button down, pos=(1073,265)
+371.8055 	EXP 	correctAnswer: autoDraw = False
+371.8055 	EXP 	wrongAnswer: autoDraw = False
+371.8055 	EXP 	corrColor_2: autoDraw = False
+371.8055 	EXP 	RBGInfo_2: autoDraw = False
+371.8055 	EXP 	R_2: autoDraw = False
+371.8055 	EXP 	G_2: autoDraw = False
+371.8055 	EXP 	B_2: autoDraw = False
+371.8055 	EXP 	text_11: autoDraw = True
+371.9083 	DATA 	Mouse:  Left button up, pos=(1073,265)
+372.1424 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'folder': '01-1', 'image': '006_Yellow.jpg', 'logical': True, 'corrColor': 'Yellow', 'corrR': 100, 'corrG': 100, 'corrB': 9, 'image_path': '01-1/006_Yellow_0.png', 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+372.2388 	EXP 	text_11: autoDraw = False
+372.2388 	EXP 	text_11: autoDraw = False
+372.2388 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+372.2388 	EXP 	img: ori = np.float64(0.0)
+372.2388 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+372.2388 	EXP 	counter_Text: height = np.float64(72.0)
+372.2388 	EXP 	counter_Text: height = np.float64(72.0)
+372.2388 	EXP 	counter_Text: height = np.float64(72.0)
+372.2388 	EXP 	counter_Text: text = 24
+372.2388 	EXP 	img: autoDraw = True
+372.2388 	EXP 	Instructions: autoDraw = True
+372.2388 	EXP 	RBGInfo: autoDraw = True
+372.2388 	EXP 	G: autoDraw = True
+372.2388 	EXP 	B: autoDraw = True
+372.2388 	EXP 	counter_Text: autoDraw = True
+372.2388 	EXP 	total_count: autoDraw = True
+372.4887 	EXP 	R: autoDraw = True
+375.1105 	DATA 	Keypress: space
+375.1111 	EXP 	Device response: <KeyPress from None: t=375.0755456999177, value=space, duration=None>
+375.2120 	EXP 	Device response: <KeyPress from None: t=375.0755456999177, value=space, duration=0.07977810001466423>
+378.8367 	DATA 	Mouse: Left button down, pos=(1674,594)
+378.8544 	EXP 	img: autoDraw = False
+378.8544 	EXP 	Instructions: autoDraw = False
+378.8544 	EXP 	RBGInfo: autoDraw = False
+378.8544 	EXP 	R: autoDraw = False
+378.8544 	EXP 	G: autoDraw = False
+378.8544 	EXP 	B: autoDraw = False
+378.8544 	EXP 	counter_Text: autoDraw = False
+378.8544 	EXP 	total_count: autoDraw = False
+378.8544 	EXP 	text_8: autoDraw = True
+378.9757 	DATA 	Mouse:  Left button up, pos=(1674,594)
+379.2198 	EXP 	text_8: autoDraw = False
+379.2198 	EXP 	text_8: autoDraw = False
+379.2198 	EXP 	slider: markerPos = None
+379.2198 	EXP 	slider: markerPos = 1
+379.2198 	EXP 	slider: autoDraw = True
+379.2198 	EXP 	text_9: autoDraw = True
+379.2198 	EXP 	text_answer: autoDraw = True
+379.9042 	DATA 	Mouse: Left button down, pos=(1421,574)
+379.9360 	EXP 	slider: markerPos = np.float64(5.0440000000000005)
+379.9559 	EXP 	slider: markerPos = np.float64(5.0440000000000005)
+379.9860 	EXP 	slider: markerPos = np.float64(5.0440000000000005)
+380.0057 	EXP 	slider: markerPos = np.float64(5.0440000000000005)
+380.0358 	EXP 	slider: markerPos = np.float64(5.0440000000000005)
+380.0379 	DATA 	Mouse:  Left button up, pos=(1421,574)
+380.0556 	EXP 	slider: markerPos = 5.0
+380.8368 	DATA 	Mouse: Left button down, pos=(1006,240)
+380.8554 	EXP 	slider: autoDraw = False
+380.8554 	EXP 	text_9: autoDraw = False
+380.8554 	EXP 	text_answer: autoDraw = False
+380.8554 	EXP 	text_8: autoDraw = True
+380.9416 	DATA 	Mouse:  Left button up, pos=(1010,239)
+381.2193 	INFO 	Keyboard events cleared
+381.2193 	EXP 	text_8: autoDraw = False
+381.2193 	EXP 	corrColor_2: height = np.float64(56.0)
+381.2193 	EXP 	corrColor_2: height = np.float64(56.0)
+381.2193 	EXP 	corrColor_2: height = np.float64(56.0)
+381.2193 	EXP 	corrColor_2: text = 'Yellow'
+381.2193 	EXP 	R_2: height = np.float64(42.0)
+381.2193 	EXP 	R_2: height = np.float64(42.0)
+381.2193 	EXP 	R_2: height = np.float64(42.0)
+381.2193 	EXP 	R_2: text = 100
+381.2193 	EXP 	G_2: height = np.float64(42.0)
+381.2193 	EXP 	G_2: height = np.float64(42.0)
+381.2193 	EXP 	G_2: height = np.float64(42.0)
+381.2193 	EXP 	G_2: text = 100
+381.2193 	EXP 	B_2: height = np.float64(42.0)
+381.2193 	EXP 	B_2: height = np.float64(42.0)
+381.2193 	EXP 	B_2: height = np.float64(42.0)
+381.2193 	EXP 	B_2: text = 9
+381.2193 	EXP 	correctAnswer: autoDraw = True
+381.2193 	EXP 	RBGInfo_2: autoDraw = True
+381.2193 	EXP 	R_2: autoDraw = True
+381.2193 	EXP 	G_2: autoDraw = True
+381.2193 	EXP 	B_2: autoDraw = True
+381.8736 	DATA 	Mouse: Left button down, pos=(1033,242)
+381.9052 	EXP 	correctAnswer: autoDraw = False
+381.9052 	EXP 	wrongAnswer: autoDraw = False
+381.9052 	EXP 	corrColor_2: autoDraw = False
+381.9052 	EXP 	RBGInfo_2: autoDraw = False
+381.9052 	EXP 	R_2: autoDraw = False
+381.9052 	EXP 	G_2: autoDraw = False
+381.9052 	EXP 	B_2: autoDraw = False
+381.9052 	EXP 	text_11: autoDraw = True
+381.9924 	DATA 	Mouse:  Left button up, pos=(1034,242)
+382.2387 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'folder': '01-1', 'image': '022_Green.jpg', 'logical': True, 'corrColor': 'Green', 'corrR': 0, 'corrG': 95, 'corrB': 0, 'image_path': '01-1/022_Green_0.png', 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+382.3379 	EXP 	text_11: autoDraw = False
+382.3379 	EXP 	text_11: autoDraw = False
+382.3379 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+382.3379 	EXP 	img: ori = np.float64(0.0)
+382.3379 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+382.3379 	EXP 	counter_Text: height = np.float64(72.0)
+382.3379 	EXP 	counter_Text: height = np.float64(72.0)
+382.3379 	EXP 	counter_Text: height = np.float64(72.0)
+382.3379 	EXP 	counter_Text: text = 25
+382.3379 	EXP 	img: autoDraw = True
+382.3379 	EXP 	Instructions: autoDraw = True
+382.3379 	EXP 	RBGInfo: autoDraw = True
+382.3379 	EXP 	G: autoDraw = True
+382.3379 	EXP 	B: autoDraw = True
+382.3379 	EXP 	counter_Text: autoDraw = True
+382.3379 	EXP 	total_count: autoDraw = True
+382.5047 	EXP 	R: autoDraw = True
+384.0115 	DATA 	Keypress: space
+384.0119 	EXP 	Device response: <KeyPress from None: t=383.96086979995016, value=space, duration=None>
+384.1047 	EXP 	Device response: <KeyPress from None: t=383.96086979995016, value=space, duration=0.08888239995576441>
+386.4141 	DATA 	Keypress: space
+386.4146 	EXP 	Device response: <KeyPress from None: t=386.37477190000936, value=space, duration=None>
+386.5076 	EXP 	Device response: <KeyPress from None: t=386.37477190000936, value=space, duration=0.07955239992588758>
+391.2541 	DATA 	Mouse: Left button down, pos=(1685,406)
+391.2700 	EXP 	img: autoDraw = False
+391.2700 	EXP 	Instructions: autoDraw = False
+391.2700 	EXP 	RBGInfo: autoDraw = False
+391.2700 	EXP 	R: autoDraw = False
+391.2700 	EXP 	G: autoDraw = False
+391.2700 	EXP 	B: autoDraw = False
+391.2700 	EXP 	counter_Text: autoDraw = False
+391.2700 	EXP 	total_count: autoDraw = False
+391.2700 	EXP 	text_8: autoDraw = True
+391.3581 	DATA 	Mouse:  Left button up, pos=(1685,406)
+391.6355 	EXP 	text_8: autoDraw = False
+391.6355 	EXP 	text_8: autoDraw = False
+391.6355 	EXP 	slider: markerPos = None
+391.6355 	EXP 	slider: markerPos = 1
+391.6355 	EXP 	slider: autoDraw = True
+391.6355 	EXP 	text_9: autoDraw = True
+391.6355 	EXP 	text_answer: autoDraw = True
+392.3406 	DATA 	Mouse: Left button down, pos=(1421,602)
+392.3690 	EXP 	slider: markerPos = np.float64(5.0440000000000005)
+392.3885 	EXP 	slider: markerPos = np.float64(5.0440000000000005)
+392.4189 	EXP 	slider: markerPos = np.float64(5.0440000000000005)
+392.4386 	EXP 	slider: markerPos = np.float64(5.0440000000000005)
+392.4427 	DATA 	Mouse:  Left button up, pos=(1421,600)
+392.4691 	EXP 	slider: markerPos = 5.0
+393.1352 	DATA 	Mouse: Left button down, pos=(1056,266)
+393.1737 	EXP 	slider: autoDraw = False
+393.1737 	EXP 	text_9: autoDraw = False
+393.1737 	EXP 	text_answer: autoDraw = False
+393.1737 	EXP 	text_8: autoDraw = True
+393.2562 	DATA 	Mouse:  Left button up, pos=(1056,266)
+393.5356 	INFO 	Keyboard events cleared
+393.5355 	EXP 	text_8: autoDraw = False
+393.5355 	EXP 	corrColor_2: height = np.float64(56.0)
+393.5355 	EXP 	corrColor_2: height = np.float64(56.0)
+393.5355 	EXP 	corrColor_2: height = np.float64(56.0)
+393.5355 	EXP 	corrColor_2: text = 'Green'
+393.5355 	EXP 	R_2: height = np.float64(42.0)
+393.5355 	EXP 	R_2: height = np.float64(42.0)
+393.5355 	EXP 	R_2: height = np.float64(42.0)
+393.5355 	EXP 	R_2: text = 0
+393.5355 	EXP 	G_2: height = np.float64(42.0)
+393.5355 	EXP 	G_2: height = np.float64(42.0)
+393.5355 	EXP 	G_2: height = np.float64(42.0)
+393.5355 	EXP 	G_2: text = 95
+393.5355 	EXP 	B_2: height = np.float64(42.0)
+393.5355 	EXP 	B_2: height = np.float64(42.0)
+393.5355 	EXP 	B_2: height = np.float64(42.0)
+393.5355 	EXP 	B_2: text = 0
+393.5355 	EXP 	correctAnswer: autoDraw = True
+393.5355 	EXP 	RBGInfo_2: autoDraw = True
+393.5355 	EXP 	R_2: autoDraw = True
+393.5355 	EXP 	G_2: autoDraw = True
+393.5355 	EXP 	B_2: autoDraw = True
+395.0722 	DATA 	Mouse: Left button down, pos=(1056,266)
+395.0880 	EXP 	correctAnswer: autoDraw = False
+395.0880 	EXP 	wrongAnswer: autoDraw = False
+395.0880 	EXP 	corrColor_2: autoDraw = False
+395.0880 	EXP 	RBGInfo_2: autoDraw = False
+395.0880 	EXP 	R_2: autoDraw = False
+395.0880 	EXP 	G_2: autoDraw = False
+395.0880 	EXP 	B_2: autoDraw = False
+395.0880 	EXP 	text_11: autoDraw = True
+395.1751 	DATA 	Mouse:  Left button up, pos=(1056,266)
+395.4220 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'folder': '02-1', 'image': '014_Orange.jpg', 'logical': True, 'corrColor': 'Orange', 'corrR': 100, 'corrG': 61, 'corrB': 7, 'image_path': '02-1/014_Orange_0.png', 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+395.5208 	EXP 	text_11: autoDraw = False
+395.5208 	EXP 	text_11: autoDraw = False
+395.5208 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+395.5208 	EXP 	img: ori = np.float64(0.0)
+395.5208 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+395.5208 	EXP 	counter_Text: height = np.float64(72.0)
+395.5208 	EXP 	counter_Text: height = np.float64(72.0)
+395.5208 	EXP 	counter_Text: height = np.float64(72.0)
+395.5208 	EXP 	counter_Text: text = 26
+395.5208 	EXP 	img: autoDraw = True
+395.5208 	EXP 	Instructions: autoDraw = True
+395.5208 	EXP 	RBGInfo: autoDraw = True
+395.5208 	EXP 	G: autoDraw = True
+395.5208 	EXP 	B: autoDraw = True
+395.5208 	EXP 	counter_Text: autoDraw = True
+395.5208 	EXP 	total_count: autoDraw = True
+395.7695 	EXP 	R: autoDraw = True
+399.4303 	DATA 	Keypress: space
+399.5085 	EXP 	Device response: <KeyPress from None: t=399.42944799992256, value=space, duration=None>
+399.6054 	EXP 	Device response: <KeyPress from None: t=399.42944799992256, value=space, duration=0.09757069998886436>
+404.3790 	DATA 	Mouse: Left button down, pos=(1673,698)
+404.4032 	EXP 	img: autoDraw = False
+404.4032 	EXP 	Instructions: autoDraw = False
+404.4032 	EXP 	RBGInfo: autoDraw = False
+404.4032 	EXP 	R: autoDraw = False
+404.4032 	EXP 	G: autoDraw = False
+404.4032 	EXP 	B: autoDraw = False
+404.4032 	EXP 	counter_Text: autoDraw = False
+404.4032 	EXP 	total_count: autoDraw = False
+404.4032 	EXP 	text_8: autoDraw = True
+404.4241 	DATA 	Mouse:  Left button up, pos=(1673,698)
+404.7686 	EXP 	text_8: autoDraw = False
+404.7686 	EXP 	slider: markerPos = None
+404.7686 	EXP 	slider: markerPos = 1
+404.7686 	EXP 	slider: autoDraw = True
+404.7686 	EXP 	text_9: autoDraw = True
+404.7686 	EXP 	text_answer: autoDraw = True
+405.7296 	DATA 	Mouse: Left button down, pos=(1415,612)
+405.7710 	EXP 	slider: markerPos = np.float64(5.02)
+405.8025 	EXP 	slider: markerPos = np.float64(5.02)
+405.8258 	EXP 	slider: markerPos = np.float64(5.02)
+405.8379 	DATA 	Mouse:  Left button up, pos=(1415,612)
+405.8522 	EXP 	slider: markerPos = np.float64(5.02)
+405.8857 	EXP 	slider: markerPos = 5.0
+406.4471 	DATA 	Mouse: Left button down, pos=(1027,264)
+406.4889 	EXP 	slider: autoDraw = False
+406.4889 	EXP 	text_9: autoDraw = False
+406.4889 	EXP 	text_answer: autoDraw = False
+406.4889 	EXP 	text_8: autoDraw = True
+406.5602 	DATA 	Mouse:  Left button up, pos=(1031,264)
+406.8516 	INFO 	Keyboard events cleared
+406.8516 	EXP 	text_8: autoDraw = False
+406.8516 	EXP 	corrColor_2: height = np.float64(56.0)
+406.8516 	EXP 	corrColor_2: height = np.float64(56.0)
+406.8516 	EXP 	corrColor_2: height = np.float64(56.0)
+406.8516 	EXP 	corrColor_2: text = 'Orange'
+406.8516 	EXP 	R_2: height = np.float64(42.0)
+406.8516 	EXP 	R_2: height = np.float64(42.0)
+406.8516 	EXP 	R_2: height = np.float64(42.0)
+406.8516 	EXP 	R_2: text = 100
+406.8516 	EXP 	G_2: height = np.float64(42.0)
+406.8516 	EXP 	G_2: height = np.float64(42.0)
+406.8516 	EXP 	G_2: height = np.float64(42.0)
+406.8516 	EXP 	G_2: text = 61
+406.8516 	EXP 	B_2: height = np.float64(42.0)
+406.8516 	EXP 	B_2: height = np.float64(42.0)
+406.8516 	EXP 	B_2: height = np.float64(42.0)
+406.8516 	EXP 	B_2: text = 7
+406.8516 	EXP 	correctAnswer: autoDraw = True
+406.8516 	EXP 	RBGInfo_2: autoDraw = True
+406.8516 	EXP 	R_2: autoDraw = True
+406.8516 	EXP 	G_2: autoDraw = True
+406.8516 	EXP 	B_2: autoDraw = True
+407.5225 	DATA 	Mouse: Left button down, pos=(1076,250)
+407.5376 	EXP 	correctAnswer: autoDraw = False
+407.5376 	EXP 	wrongAnswer: autoDraw = False
+407.5376 	EXP 	corrColor_2: autoDraw = False
+407.5376 	EXP 	RBGInfo_2: autoDraw = False
+407.5376 	EXP 	R_2: autoDraw = False
+407.5376 	EXP 	G_2: autoDraw = False
+407.5376 	EXP 	B_2: autoDraw = False
+407.5376 	EXP 	text_11: autoDraw = True
+407.6566 	DATA 	Mouse:  Left button up, pos=(1086,252)
+407.8714 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'folder': '01-1', 'image': '008_Blue.jpg', 'logical': True, 'corrColor': 'Blue', 'corrR': 4, 'corrG': 9, 'corrB': 100, 'image_path': '01-1/008_Blue_0.png', 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+407.9699 	EXP 	text_11: autoDraw = False
+407.9699 	EXP 	text_11: autoDraw = False
+407.9699 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+407.9699 	EXP 	img: ori = np.float64(0.0)
+407.9699 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+407.9699 	EXP 	counter_Text: height = np.float64(72.0)
+407.9699 	EXP 	counter_Text: height = np.float64(72.0)
+407.9699 	EXP 	counter_Text: height = np.float64(72.0)
+407.9699 	EXP 	counter_Text: text = 27
+407.9699 	EXP 	img: autoDraw = True
+407.9699 	EXP 	Instructions: autoDraw = True
+407.9699 	EXP 	RBGInfo: autoDraw = True
+407.9699 	EXP 	G: autoDraw = True
+407.9699 	EXP 	B: autoDraw = True
+407.9699 	EXP 	counter_Text: autoDraw = True
+407.9699 	EXP 	total_count: autoDraw = True
+408.2195 	EXP 	R: autoDraw = True
+409.1999 	DATA 	Keypress: space
+409.2006 	EXP 	Device response: <KeyPress from None: t=409.16063739999663, value=space, duration=None>
+409.3050 	EXP 	Device response: <KeyPress from None: t=409.16063739999663, value=space, duration=0.08852270001079887>
+411.8302 	DATA 	Keypress: space
+411.8308 	EXP 	Device response: <KeyPress from None: t=411.78264899994247, value=space, duration=None>
+411.9224 	EXP 	Device response: <KeyPress from None: t=411.78264899994247, value=space, duration=0.0979508999735117>
+413.4938 	DATA 	Mouse: Left button down, pos=(1707,644)
+413.5193 	EXP 	img: autoDraw = False
+413.5193 	EXP 	Instructions: autoDraw = False
+413.5193 	EXP 	RBGInfo: autoDraw = False
+413.5193 	EXP 	R: autoDraw = False
+413.5193 	EXP 	G: autoDraw = False
+413.5193 	EXP 	B: autoDraw = False
+413.5193 	EXP 	counter_Text: autoDraw = False
+413.5193 	EXP 	total_count: autoDraw = False
+413.5193 	EXP 	text_8: autoDraw = True
+413.6231 	DATA 	Mouse:  Left button up, pos=(1707,644)
+413.8849 	EXP 	text_8: autoDraw = False
+413.8849 	EXP 	slider: markerPos = None
+413.8849 	EXP 	slider: markerPos = 1
+413.8849 	EXP 	slider: autoDraw = True
+413.8849 	EXP 	text_9: autoDraw = True
+413.8849 	EXP 	text_answer: autoDraw = True
+414.7299 	DATA 	Mouse: Left button down, pos=(1414,603)
+414.7684 	EXP 	slider: markerPos = np.float64(5.016)
+414.7880 	EXP 	slider: markerPos = np.float64(5.016)
+414.8180 	EXP 	slider: markerPos = np.float64(5.016)
+414.8376 	EXP 	slider: markerPos = np.float64(5.016)
+414.8494 	DATA 	Mouse:  Left button up, pos=(1415,597)
+414.8681 	EXP 	slider: markerPos = np.float64(5.02)
+414.9018 	EXP 	slider: markerPos = 5.0
+415.5554 	DATA 	Mouse: Left button down, pos=(1066,258)
+415.5703 	EXP 	slider: autoDraw = False
+415.5703 	EXP 	text_9: autoDraw = False
+415.5703 	EXP 	text_answer: autoDraw = False
+415.5703 	EXP 	text_8: autoDraw = True
+415.6571 	DATA 	Mouse:  Left button up, pos=(1066,258)
+415.9346 	INFO 	Keyboard events cleared
+415.9345 	EXP 	text_8: autoDraw = False
+415.9345 	EXP 	text_8: autoDraw = False
+415.9345 	EXP 	corrColor_2: height = np.float64(56.0)
+415.9345 	EXP 	corrColor_2: height = np.float64(56.0)
+415.9345 	EXP 	corrColor_2: height = np.float64(56.0)
+415.9345 	EXP 	corrColor_2: text = 'Blue'
+415.9345 	EXP 	R_2: height = np.float64(42.0)
+415.9345 	EXP 	R_2: height = np.float64(42.0)
+415.9345 	EXP 	R_2: height = np.float64(42.0)
+415.9345 	EXP 	R_2: text = 4
+415.9345 	EXP 	G_2: height = np.float64(42.0)
+415.9345 	EXP 	G_2: height = np.float64(42.0)
+415.9345 	EXP 	G_2: height = np.float64(42.0)
+415.9345 	EXP 	G_2: text = 9
+415.9345 	EXP 	B_2: height = np.float64(42.0)
+415.9345 	EXP 	B_2: height = np.float64(42.0)
+415.9345 	EXP 	B_2: height = np.float64(42.0)
+415.9345 	EXP 	B_2: text = 100
+415.9345 	EXP 	correctAnswer: autoDraw = True
+415.9345 	EXP 	RBGInfo_2: autoDraw = True
+415.9345 	EXP 	R_2: autoDraw = True
+415.9345 	EXP 	G_2: autoDraw = True
+415.9345 	EXP 	B_2: autoDraw = True
+416.7894 	DATA 	Mouse: Left button down, pos=(1093,265)
+416.8037 	EXP 	correctAnswer: autoDraw = False
+416.8037 	EXP 	wrongAnswer: autoDraw = False
+416.8037 	EXP 	corrColor_2: autoDraw = False
+416.8037 	EXP 	RBGInfo_2: autoDraw = False
+416.8037 	EXP 	R_2: autoDraw = False
+416.8037 	EXP 	G_2: autoDraw = False
+416.8037 	EXP 	B_2: autoDraw = False
+416.8037 	EXP 	text_11: autoDraw = True
+416.9059 	DATA 	Mouse:  Left button up, pos=(1093,265)
+417.1378 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'folder': '02-1', 'image': '018_Seafoam.jpg', 'logical': True, 'corrColor': 'Seafoam', 'corrR': 13, 'corrG': 100, 'corrB': 58, 'image_path': '02-1/018_Seafoam_0.png', 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+417.2372 	EXP 	text_11: autoDraw = False
+417.2372 	EXP 	text_11: autoDraw = False
+417.2372 	EXP 	img: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+417.2372 	EXP 	img: ori = np.float64(0.0)
+417.2372 	EXP 	Instructions: text = 'Click the spacebar to shuffle through the filters to recognize the color.\nPress the button of the color you think it corresponds to.'
+417.2372 	EXP 	counter_Text: height = np.float64(72.0)
+417.2372 	EXP 	counter_Text: height = np.float64(72.0)
+417.2372 	EXP 	counter_Text: height = np.float64(72.0)
+417.2372 	EXP 	counter_Text: text = 28
+417.2372 	EXP 	img: autoDraw = True
+417.2372 	EXP 	Instructions: autoDraw = True
+417.2372 	EXP 	RBGInfo: autoDraw = True
+417.2372 	EXP 	G: autoDraw = True
+417.2372 	EXP 	B: autoDraw = True
+417.2372 	EXP 	counter_Text: autoDraw = True
+417.2372 	EXP 	total_count: autoDraw = True
+417.4856 	EXP 	R: autoDraw = True
+420.9438 	DATA 	Keypress: space
+420.9447 	EXP 	Device response: <KeyPress from None: t=420.93493180000223, value=space, duration=None>
+421.1341 	EXP 	Device response: <KeyPress from None: t=420.93493180000223, value=space, duration=0.11630719993263483>
+423.9154 	DATA 	Keypress: space
+423.9159 	EXP 	Device response: <KeyPress from None: t=423.870292800013, value=space, duration=None>
+424.0113 	EXP 	Device response: <KeyPress from None: t=423.870292800013, value=space, duration=0.07931569998618215>
+432.5498 	DATA 	Mouse: Left button down, pos=(1689,886)
+432.6351 	EXP 	img: autoDraw = False
+432.6351 	EXP 	Instructions: autoDraw = False
+432.6351 	EXP 	RBGInfo: autoDraw = False
+432.6351 	EXP 	R: autoDraw = False
+432.6351 	EXP 	G: autoDraw = False
+432.6351 	EXP 	B: autoDraw = False
+432.6351 	EXP 	counter_Text: autoDraw = False
+432.6351 	EXP 	total_count: autoDraw = False
+432.6351 	EXP 	text_8: autoDraw = True
+432.6902 	DATA 	Mouse:  Left button up, pos=(1689,886)
+433.0007 	EXP 	text_8: autoDraw = False
+433.0007 	EXP 	text_8: autoDraw = False
+433.0007 	EXP 	slider: markerPos = None
+433.0007 	EXP 	slider: markerPos = 1
+433.0007 	EXP 	slider: autoDraw = True
+433.0007 	EXP 	text_9: autoDraw = True
+433.0007 	EXP 	text_answer: autoDraw = True
+433.7446 	DATA 	Mouse: Left button down, pos=(1413,606)
+433.7840 	EXP 	slider: markerPos = np.float64(5.0120000000000005)
+433.8037 	EXP 	slider: markerPos = np.float64(5.0120000000000005)
+433.8198 	EXP 	slider: markerPos = np.float64(5.008)
+433.8369 	EXP 	slider: markerPos = np.float64(5.008)
+433.8531 	EXP 	slider: markerPos = np.float64(5.008)
+433.8842 	EXP 	slider: markerPos = np.float64(5.008)
+433.8867 	DATA 	Mouse:  Left button up, pos=(1412,605)
+433.9037 	EXP 	slider: markerPos = 5.0
+434.4956 	DATA 	Mouse: Left button down, pos=(1039,264)
+434.5368 	EXP 	slider: autoDraw = False
+434.5368 	EXP 	text_9: autoDraw = False
+434.5368 	EXP 	text_answer: autoDraw = False
+434.5368 	EXP 	text_8: autoDraw = True
+434.6393 	DATA 	Mouse:  Left button up, pos=(1039,264)
+434.9012 	INFO 	Keyboard events cleared
+434.9011 	EXP 	text_8: autoDraw = False
+434.9011 	EXP 	corrColor_2: height = np.float64(56.0)
+434.9011 	EXP 	corrColor_2: height = np.float64(56.0)
+434.9011 	EXP 	corrColor_2: height = np.float64(56.0)
+434.9011 	EXP 	corrColor_2: text = 'Seafoam'
+434.9011 	EXP 	R_2: height = np.float64(42.0)
+434.9011 	EXP 	R_2: height = np.float64(42.0)
+434.9011 	EXP 	R_2: height = np.float64(42.0)
+434.9011 	EXP 	R_2: text = 13
+434.9011 	EXP 	G_2: height = np.float64(42.0)
+434.9011 	EXP 	G_2: height = np.float64(42.0)
+434.9011 	EXP 	G_2: height = np.float64(42.0)
+434.9011 	EXP 	G_2: text = 100
+434.9011 	EXP 	B_2: height = np.float64(42.0)
+434.9011 	EXP 	B_2: height = np.float64(42.0)
+434.9011 	EXP 	B_2: height = np.float64(42.0)
+434.9011 	EXP 	B_2: text = 58
+434.9011 	EXP 	correctAnswer: autoDraw = True
+434.9011 	EXP 	RBGInfo_2: autoDraw = True
+434.9011 	EXP 	R_2: autoDraw = True
+434.9011 	EXP 	G_2: autoDraw = True
+434.9011 	EXP 	B_2: autoDraw = True
+435.4215 	DATA 	Mouse: Left button down, pos=(1039,264)
+435.4355 	EXP 	correctAnswer: autoDraw = False
+435.4355 	EXP 	wrongAnswer: autoDraw = False
+435.4355 	EXP 	corrColor_2: autoDraw = False
+435.4355 	EXP 	RBGInfo_2: autoDraw = False
+435.4355 	EXP 	R_2: autoDraw = False
+435.4355 	EXP 	G_2: autoDraw = False
+435.4355 	EXP 	B_2: autoDraw = False
+435.4355 	EXP 	text_11: autoDraw = True
+435.5220 	DATA 	Mouse:  Left button up, pos=(1039,264)
+435.8002 	EXP 	text_11: autoDraw = False
+435.8002 	EXP 	text_11: autoDraw = False
+435.8002 	EXP 	GoodJob: height = np.float64(50.0)
+435.8002 	EXP 	GoodJob: height = np.float64(50.0)
+435.8002 	EXP 	GoodJob: height = np.float64(50.0)
+435.8002 	EXP 	GoodJob: text = 'Good job!\n\nThe experiment will now close.\n\nThank you.'
+435.8002 	EXP 	GoodJob: autoDraw = True
+436.9704 	DATA 	Mouse: Left button down, pos=(1444,666)
+437.0716 	DATA 	Mouse:  Left button up, pos=(1444,666)
+438.7858 	EXP 	GoodJob: autoDraw = False
+438.7860 	EXP 	Train2Laptop: status = STOPPED
+438.8208 	INFO 	saved data to 'C:\\Users\\lille\\NewOneDrive\\OneDrive\\Emilie\\MasterThesisProject\\data\\002_Train2Laptop_2026-04-08_16h23.15.968.csv'
+438.8233 	INFO 	saved data to C:\Users\lille\NewOneDrive\OneDrive\Emilie\MasterThesisProject\data\002_Train2Laptop_2026-04-08_16h23.15.968.psydat
+441.9384 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
